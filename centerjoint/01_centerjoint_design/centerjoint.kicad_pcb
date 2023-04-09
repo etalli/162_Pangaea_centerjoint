@@ -1,0 +1,2953 @@
+(kicad_pcb (version 20221018) (generator pcbnew)
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A3")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0)
+    (aux_axis_origin 112.5 24.25)
+    (grid_origin 112.617186 53.86048)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
+      (svgprecision 4)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory "../#162/gerbers/")
+    )
+  )
+
+  (net 0 "")
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp 0036b2c4-d2fb-4653-8f81-0629159c20e5)
+    (at 78.110601 32.607535 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H39" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 1bfa6838-3bfe-4a79-91a5-a6d54aa3d18e)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp f13146d7-aa57-46ef-87a7-4de8f7a516dd)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 5aa5f93c-728b-4fa7-a128-938b1e559d85))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp 012dd7d1-e235-4f9d-ab79-7349e27c20b2)
+    (at 43.5348 100.553349 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H79" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 661afefa-2e9d-4ebe-91ff-a40af017e784)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp ffda46b4-8f20-4549-915f-c27311ca2769)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp b3e95217-6da4-42c8-b4d9-00fa5707a589))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp 0f8719d3-35bd-47cd-b791-a66fe13c7e05)
+    (at 101.907161 101.298811 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H16" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp ddf1f6d7-696a-4656-adc8-fe2ee8f9779a)
+    )
+    (fp_text value "MountingHole" (at 0 0.001029 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp f18bcfd8-3755-46e1-9c52-d00840800d99)
+    )
+    (fp_text user "${VALUE}" (at 0.001252 0.001029 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp afc4de9f-a70c-4d64-90df-ef5920054987)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 63e99885-ad75-4d5a-a436-73e6ab5eb688))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 0fb30f3e-ee5e-4b63-8da9-6ff05b3fa50a)
+    (at 143.388879 74.111666 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 3da5ea7f-ddcc-4410-8220-8eb4182d006c)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 51af4b58-3116-4ca6-baac-6a85d45001c6)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 9cf4ccbb-0fc3-48cb-a286-15d77f1ff0a3))
+  )
+
+  (footprint "#footprint:Slit" (layer "F.Cu")
+    (tstamp 119d581e-d11e-400b-93cf-6dec3a347dcc)
+    (at 109.279899 81.794706 -12.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H68" (at 0 -0.5 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e24fceb7-b14f-40c3-a898-57f99d49ad9c)
+    )
+    (fp_text value "MountingHole" (at 0 1 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp a8bcf88b-b7a0-4241-82a3-df284dbb0ff1)
+    )
+    (pad "" np_thru_hole oval (at 0 0 347.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp 9395a33c-34cd-416c-b82f-d620d319410f))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 13dd0a2d-2cae-4235-a3e9-5a7b8e621f8b)
+    (at 138.705467 87.505176 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp a8e8e7ff-6ff2-461b-bec4-e5f8d831c0ef)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp b64bd9ce-36a1-425e-8a80-e5d43731a30f)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp f0bb14ba-c6a4-453c-ba02-4406789dca39))
+  )
+
+  (footprint "#footprint:Slit" (layer "F.Cu")
+    (tstamp 1acdd2f3-45a3-4639-9316-6d24b013e917)
+    (at 112.544079 67.070942 -12.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H66" (at 0 -0.5 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp b997277a-b7c6-4406-9c3b-cf05d0bc05cd)
+    )
+    (fp_text value "MountingHole" (at 0 1 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 1dcc7dfd-da24-47a4-8cf3-640ca9bedf35)
+    )
+    (pad "" np_thru_hole oval (at 0 0 347.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp bc07af0e-9ed9-473d-9d1d-61a95bb3db8c))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp 1ae1849b-8eed-46d6-a72e-1f984a241b2e)
+    (at 62.648636 102.351719 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H81" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 10f7bbef-3b19-420c-9f5a-e4d9c8e4205e)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp fa65d9aa-6bb7-4fc3-9441-f4148ea31985)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp d4364ac9-863e-4998-b768-9f27be5b7fdf))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M2_Hole" (layer "F.Cu")
+    (tstamp 1c055e8a-e507-4799-9120-c959719bb636)
+    (at 57.713743 47.598185 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H5" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp e37e0ad9-bb22-48bc-8246-7fbcd38abd0e)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 21a0c7ff-e6d4-4ad9-a058-d4ee782021ee)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 3bfebb03-42d3-4ba9-95df-64e7067cf01c))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 1da5829a-c3d7-4445-8463-0a02c837a301)
+    (at 117.413159 119.370853 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 6034bca7-bcd6-4eea-a5f6-2996355eff52)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 2c3777c6-a9ff-4b3f-8e0b-857b05037e52)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp f8bd4e66-988b-4332-b8ab-ca632bd39ccc))
+  )
+
+  (footprint "#footprint:Slit" (layer "F.Cu")
+    (tstamp 229ef4e2-1c00-49ea-8375-35ee6368d00e)
+    (at 110.911989 74.432824 -12.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H67" (at 0 -0.5 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 74e49635-d30b-4cfb-89e2-ca1ae175fdfa)
+    )
+    (fp_text value "MountingHole" (at 0 1 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 5ec58e3f-52f2-4e82-a814-638e6c9ad7e7)
+    )
+    (pad "" np_thru_hole oval (at 0 0 347.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp 43c75e4c-2483-41b9-8e97-a018c05075c8))
+  )
+
+  (footprint "#footprint:Slit" (layer "F.Cu")
+    (tstamp 257517a7-cb83-47ff-91f7-5188b7f045ac)
+    (at 102.623743 111.824733 -12.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H93" (at 0 -0.5 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp a4c1d45c-70fa-4d96-95a4-6d6b3d9a3b50)
+    )
+    (fp_text value "MountingHole" (at 0 1 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 62f79fb9-2a2f-4055-b930-a78e77d82be5)
+    )
+    (pad "" np_thru_hole oval (at 0 0 347.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp 8245a433-eca5-4d64-9c35-b726b0f42009))
+  )
+
+  (footprint "#footprint:M2_Hole" (layer "F.Cu")
+    (tstamp 277c5d96-0eb7-4f4c-bdbc-73146334cf16)
+    (at 49.467394 84.795063 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H4" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp a4327c0a-6b8d-4868-bf23-bf8e290e7d13)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 186ab96c-2fed-450e-a9ad-800c67725b2b)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 94233f8b-ccdf-4b50-a7eb-4ed50a17d43d))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:Slit" (layer "F.Cu")
+    (tstamp 2a1d4186-dec0-4ae1-8cd9-7f99a3c44da9)
+    (at 114.176155 59.709123 -12.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H65" (at 0 -0.5 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e3dc3218-c96d-426e-9955-47211a53e7ac)
+    )
+    (fp_text value "MountingHole" (at 0 1 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp ef066708-e53d-4699-b149-742157a22b20)
+    )
+    (pad "" np_thru_hole oval (at 0 0 347.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp 224d699a-d628-44d9-992f-f18d27ec67f0))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 2d7a43ed-bd53-4d47-b7e6-f2d3dbc0aad6)
+    (at 143.6452 69.290391 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 9d834c78-d425-4249-abf4-5ec8dc881318)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 4dbf2d43-42e4-4ca0-a7c9-b59a67770ede)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 9c5c0a97-0419-47f6-bff8-d730c5e2be5c))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp 32afd029-cd79-4ca8-9fff-96a068958aff)
+    (at 58.996754 30.809214 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H37" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 86be17bd-5978-41b1-9059-ca806d7a7c5a)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 631f4acf-5660-485e-a1d4-4bcaf25e5ec6)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 660352e7-5dc4-4dac-93ac-336709e98c14))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:Slit" (layer "F.Cu")
+    (tstamp 3add97b6-1f8c-4cd3-b570-e276d95537f3)
+    (at 104.041088 105.431503 -12.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H93" (at 0 -0.5 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e11a222c-f799-49d9-b1b2-22240a86be02)
+    )
+    (fp_text value "MountingHole" (at 0 1 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 10e5cc28-b22e-46a4-98c8-fb1d05a88a76)
+    )
+    (pad "" np_thru_hole oval (at 0 0 347.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp df0d2eb3-2ab5-4121-8602-593e4138a701))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 418acbcf-cfbb-4a1f-86a7-c6981b2b9bdf)
+    (at 118.499997 58.024715 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 9a63125c-b49f-4b72-ac7a-f650758017c6)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp b05d4c66-7ec6-4133-a14c-b4b4246abfd2)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 775a4afc-7475-4de7-ba57-06cb101b56cb))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp 4ffe1684-6e75-4ba8-98f7-104ac82efd47)
+    (at 48.699807 99.259338 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H80" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp bae15c39-cf15-4826-b7f7-10b4c60f4b95)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 7ce8f516-e813-4787-95cd-6cedd59d4a32)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 245e1792-2c2d-41cb-aecf-2d86e4ee55a7))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 558a73a6-6468-4f45-8cae-c5d1b1156bed)
+    (at 64.161771 29.515154 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 991a7f1e-41fd-4d55-8595-251626284443)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp af4d59f1-a9b4-4a6d-8efa-0ea4ef5dd962)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 9261bb32-69ea-4e36-b8ad-52c083610807))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp 722fd493-d554-473a-9ac1-b5986848a8a2)
+    (at 80.731678 108.799698 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H83" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 22f9862f-052a-43b5-802a-8ad2d32b1187)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 6b19ee39-1804-4b13-8307-b2ca966862f7)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 26234f14-f73f-4ee9-ba56-23480cf03002))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 7f24b64e-9c92-4a0f-9b0c-d5211eaf3e28)
+    (at 138.491232 92.538441 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp db6d619f-7065-44f5-b71b-3bb8d614fd2e)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 628b7ae7-68ad-4a17-ac98-8315e3efd99f)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 981ef263-36e7-43c6-a5a6-6a966540b9bf))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp 892ae2f4-8609-4aa7-a9ce-c2b3109ad9a2)
+    (at 84.865891 112.155297 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H84" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 0b5ec725-1703-4e6d-96bd-1c6628f8e31c)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 3ad4faa0-a57f-4b21-98e1-d3008e284c79)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 06487f63-c1ed-464a-bbaa-6029ebc6673a))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 91c087a5-2bf7-4934-b3b5-2251c4a43ae9)
+    (at 106.030276 82.70041 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 5a7ec0a5-de68-4c27-bc7b-3fcc847807c0)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp b13f9469-8fa2-4bd8-bab3-3a1a9c14f42b)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 3954c37a-5e53-4de8-b7c0-78b9822c5032))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp 9825a2af-2dce-4244-b952-f695e1651e11)
+    (at 141.797392 73.556297 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 5a8dc3eb-94a8-4b4d-ae0f-25b607976a60)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 0e35a3f3-8c3d-4bf3-b42f-14d7c731b7a4)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 76e3f9ce-78d3-473c-9fb4-f41d94add10c))
+  )
+
+  (footprint "#footprint:M2_Hole" (layer "F.Cu")
+    (tstamp 99ae339e-5d55-4a65-8bd8-5b186fa480bc)
+    (at 86.664272 93.041412 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H3" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 72c50890-4983-41e6-9d1a-a88f32594513)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp f9ec8034-09b1-4c83-88a1-ac65d52d0c88)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 94d36dfb-844d-489d-afe6-b3fcdc9ba64a))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp a4657a36-5b04-482c-960c-23601567aa4d)
+    (at 78.121579 54.56161 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 02daa703-db20-465d-baf0-e515ebb50911)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 348e46ed-7efc-42ee-aff8-8348109f5c9b)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 8ac8f167-2dd1-4caa-90d9-97316c5b63fa))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp a5bc6675-c0ba-4d2b-a634-02ce762ed524)
+    (at 82.244803 35.963182 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H40" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 958d547e-8e8f-4a39-bf7a-397f4e2f7bca)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 6a5ebc94-7ef8-432d-a5cd-37cc61c275a5)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 7f7c577c-d57e-449a-bb92-230eb0efe5c3))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp aba274cc-4408-47ac-8f30-01cb4f55b431)
+    (at 72.446695 69.157445 -102.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H117" (at 0 1.651 77.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 70078e46-896e-46d6-b546-ebeef605bc1b)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 77.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp c6d47504-e456-4c2c-b7b6-151a0c0a7099)
+    )
+    (pad "" thru_hole circle (at 0 0 257.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp ae6598b9-a6bd-4fc1-8920-efb7be0a3f68))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M2_Hole" (layer "F.Cu")
+    (tstamp b1edf9d2-8b84-4520-8814-e39ce8adfe71)
+    (at 94.910621 55.844535 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H6" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp e4b48c9d-2ee9-4f1d-ad2e-2520c5e2376c)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 78590b80-6bca-4c26-9d17-47dbcd3ecd82)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 110b8c15-3b62-48fa-97de-5b9c5cae5970))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp b63666fd-16f3-4278-bfd2-bfbed34512a0)
+    (at 96.193632 39.055563 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 43beb084-f934-430b-81f4-dc8e4829adfe)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 097cd352-a038-430f-946e-761874c58ea8)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 4711e541-0a87-473b-8f3c-c98b0fe37218))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp b835a8dd-1a55-4537-aafd-ba4c093c6ef2)
+    (at 29.585927 97.461167 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 5aea5a59-1cac-41f7-ae73-8d9f21f4ed07)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 67b55451-5d2d-4d27-bb43-c997992b5d77)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 128a34aa-3b9d-453d-a69a-401f18aaf5ee))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp baf070c1-37be-4a86-924e-2ed177f60a05)
+    (at 38.866793 62.932493 -102.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H114" (at 0 1.651 77.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp dc659fe4-d7cf-45c3-8f37-2e534b605001)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 77.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 88647d0f-bcaa-4490-bb31-5858a953f65b)
+    )
+    (pad "" thru_hole circle (at 0 0 257.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 8f867a07-77a9-4d56-a612-2eb2b30aa4b2))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:Slit" (layer "F.Cu")
+    (tstamp c2a14a74-b4fd-416c-a598-e5c2d2980ee0)
+    (at 115.808259 52.347178 -12.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H64" (at 0 -0.5 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3b8917a-93c7-490f-9de9-44b8d562d435)
+    )
+    (fp_text value "MountingHole" (at 0 1 -12.5 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 90a5c3f0-a02a-43b0-a172-6c32b36741bf)
+    )
+    (pad "" np_thru_hole oval (at 0 0 347.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp e2994aed-6180-484d-aec2-828a20578d7d))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp c79a8394-04e1-4254-98f1-5f402c847246)
+    (at 45.047925 27.716833 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 8a19ac71-5de4-4a54-aa97-94c16e58c862)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp d9e68b5c-ce4c-4310-ad8d-aec69ccd5857)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp e594374b-7d4b-48fe-a200-f2c9993cf91e))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp cbc3f9e8-4bb9-4119-9288-7d395be2c749)
+    (at 140.296954 88.060545 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp a0276054-24a5-476f-9259-1832f24d751e)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp afb60834-5dd5-4141-9c2c-a54ae93c18e2)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 1c38f1c4-13a8-44e0-b7f8-3d60b66ec157))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp d6c485ef-6e1c-4d0f-9b01-020857a90adb)
+    (at 66.771811 83.75328 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 224f1c9a-50cd-4838-8544-9835d3172fb5)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp f5ffeb95-08a8-4f5f-9b27-1bd9bc00902b)
+    )
+    (pad "" thru_hole circle (at 0 0 257.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 4ca68a22-866c-410f-a883-d16c955e1caa))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp d7a8af73-2c2d-4533-89c6-4e84c2190ca7)
+    (at 66.782849 105.707317 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H82" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp d2fac4ff-d574-46a8-b621-066a18ee2c57)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp 4c62cf8f-a42d-405b-9ced-e0638c516471)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp e6fa325e-2329-40cd-9d2d-5e5daa49558f))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp da6daf23-75e6-417a-965f-788fa93e2a6f)
+    (at 100.327856 42.411113 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H42" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 3c4ed9a1-c055-4140-8be5-1e9db7f40f4e)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp f6358aaf-af42-4b86-9fd4-bd1b33bdd88b)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp d667d61f-2466-441e-835b-5c91bf5722cd))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp dbcfa9aa-0f35-429c-9803-ef246e9a6f9c)
+    (at 112.143443 86.697276 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp bf04983c-5fd6-4960-9205-de71714ef242)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 9e53940e-7079-4407-8530-786e47634130)
+    )
+    (pad "" np_thru_hole circle (at 0 0 347.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 47f0bc0b-bdd8-47d7-90fa-3f75af54b564))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp debae16a-3bff-43d6-b84b-c47b956acc35)
+    (at 110.15351 64.101933 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 7e7b938e-e65a-47c1-9507-a5675dc6f823)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp c3855999-ecd0-4982-bb30-8ab221261f59)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 94a3c47c-ee13-4fe0-b295-44a660c00156))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp e87df0c7-0b57-4216-9dd2-2c53ad7db6bc)
+    (at 114.276685 45.503494 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp ce22fdad-9c27-4930-9f1e-854a530b95ea)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 3d3be563-bb28-461d-a85f-e3942821fc3a)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 455fb3ed-00b7-4852-996e-e0c1e2cef43e))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "F.Cu")
+    (tstamp ee67ece2-24cc-4de1-b71b-fc8cfc172990)
+    (at 98.81478 115.24764 -12.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H17" (at 0 1.651 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+      (tstamp 04ef4a13-606a-41e5-8801-603bb3042e5e)
+    )
+    (fp_text value "MountingHole" (at 0 -1.4605 167.5) (layer "F.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)))
+      (tstamp e3e89a6a-475e-4e72-abcd-281e9936c816)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 3d9c2e53-3498-4801-b814-55a76910d819))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp ef56fa17-c312-4f5d-b7e2-3180b8322297)
+    (at 120.50554 105.422023 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp 3ad22899-af11-4760-b8cc-d23528b6ef3d)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp d3def58d-c06a-4df1-9cf8-81eb645d6856)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 59d55b6e-9098-4f78-9bee-afa894304a00))
+  )
+
+  (footprint "" (layer "F.Cu")
+    (tstamp f066d6b6-88ab-479a-b1e9-79c42ea59cbc)
+    (at 102.937965 96.649152 -12.5)
+    (fp_text reference "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp e04307a2-5772-4fde-820e-fd6a7a5d29fe)
+    )
+    (fp_text value "" (at 0 0 167.5) (layer "F.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
+      (tstamp e1a0044c-2060-440c-96b7-2d40a5921821)
+    )
+    (pad "" thru_hole circle (at 0 0 347.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp c30b9396-b3b5-40e7-bc91-3d8c84f1defc))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 03b7eccb-62a2-4759-b20b-f0c976584051)
+    (at 165.375273 69.290386 -167.5)
+    (fp_text reference "" (at 0 0 -347.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 60220948-2d82-4aa7-b27a-d0b6ae044c7c)
+    )
+    (fp_text value "" (at 0 0 -347.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 94ac47d2-3614-4f2b-bf6b-790de1af20b9)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 732c5b44-d68f-4ae1-bce7-7719392a653e))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 04eee0a5-6d82-4944-bee9-d12eaa613836)
+    (at 247.690776 31.573388 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H37" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp c69a1bb9-57a8-41ff-a6c7-2cc6b8694e26)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp d9aceabd-63f7-46fb-976d-5b77b8a8b4bd)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 943ce2b0-1e39-447b-adeb-18c51488c140))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 0638154c-d1a3-41c0-891b-e0354fdc2ae6)
+    (at 221.821639 112.919471 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H84" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 63ece8f9-ef5a-4560-8436-1932c583b400)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 2d65bb6d-63f9-4c42-bb22-978cf896e02d)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp c5afaedb-100c-4d45-9d98-4978c053a7a4))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 09d4eccd-79bb-4d2e-9939-26d1d310e4e3)
+    (at 225.955852 109.563872 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H83" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 6b0dd8ad-022a-44ab-976c-4875a65bc284)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 51bfbd14-8621-46ca-8095-043e512e7660)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 3fa2530b-2663-4c27-98bd-86031e6ddfb3))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 0cb6a5f3-2fbb-483f-9c60-6a1e7bd0f06f)
+    (at 204.780369 102.062985 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H16" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 7a4aa9bf-3b83-41be-8650-4f48541848f8)
+    )
+    (fp_text value "MountingHole" (at 0 -0.001029 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 1186355f-493f-4809-bcd8-8481f70e2718)
+    )
+    (fp_text user "${VALUE}" (at 0.001252 -0.001029 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp f9f692a9-b1dc-406e-9e38-48fa437ce069)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp c2b689fb-a3a2-418e-bfb9-3a2bb7b88844))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 107af52f-d2d4-4387-ba1e-9cdc857e3842)
+    (at 228.565951 55.325784 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp c9b364e6-67fd-4f3e-bb66-d3446fedeb69)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 56fc81b8-6e6e-49bc-ad2f-378af13dfe7f)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 93c316cc-dc0a-46ac-9f3a-f7ec4a71c249))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 1499d391-5f7e-473d-824e-b72584ab1234)
+    (at 239.915719 84.517454 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp e8bd7b47-e72b-4824-91dc-aa9f17a7f05a)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 93f66054-2486-4bbd-b3ad-d1e864ad78e7)
+    )
+    (pad "" thru_hole circle (at 0 0 282.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 0f9647e7-a006-40eb-a4f9-b34ace9fa0f1))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 1848df08-f55f-4bce-8e69-8ca834be9ec4)
+    (at 261.639605 28.481007 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 73f44ede-94ec-4b10-b462-a451275c1e26)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 0506af4d-35c5-4c0b-b41c-f790b068cbe5)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 12a88e05-d311-4cdd-b8d5-51b77ca3ca84))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 19b7bac7-a50c-4b4d-956b-f7c501ec6e5d)
+    (at 189.274371 120.135027 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 10ad0653-b54a-467e-8430-6b64a0a843b8)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp cfc81262-c686-4513-b29c-009d5247a3b0)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 5b9b393b-b158-489d-a8ad-369725ebf93e))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 26201ea9-c3ae-48f0-81a7-8fd60aaceec6)
+    (at 224.442727 36.727356 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H40" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp d929560b-c20c-4ef4-b7e7-c803f978e3f9)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp b6734194-c092-4faf-9d0e-c6532fd34c9c)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 38f60f2e-077b-4644-b808-6cfa96c2bbec))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 2c201766-9fd4-4558-95ef-99263ed63628)
+    (at 190.520476 58.02471 -167.5)
+    (fp_text reference "" (at 0 0 -347.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp eccacedb-4b0f-4080-b1af-a7510bf738ee)
+    )
+    (fp_text value "" (at 0 0 -347.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp f53619e8-4692-4ad5-a94d-8e6e0fac61e7)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 2449701a-cb1d-4e8b-8103-977f04e96191))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 306b8efe-1cb8-414c-85d8-66198aab40ec)
+    (at 167.982063 88.26935 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp fb3d0570-4b7a-4d7e-ad15-79ebea75afa3)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 13e143e7-61e1-486b-b471-fa879cc4fdfe)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 26398154-7111-4c13-88fa-1cdbd30982fc))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 32e7546d-9a4e-46ed-8de5-ef5faa3e5a88)
+    (at 239.904681 106.471491 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H82" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 847991c5-1d88-4525-8d5e-2e493ed3cb88)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 8a907f18-a538-4bc9-8162-a8b06a52e775)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 8600795a-eeea-4ad5-8068-1ffb9083af04))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M2_Hole" (layer "B.Cu")
+    (tstamp 34415fed-ade7-46fa-8b82-51d7c37608f7)
+    (at 248.973787 48.362359 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H5" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 4de9d0aa-9607-4254-8266-f779b9cc927b)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 44eb0667-c94b-45b4-8e44-de90e26c625b)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp c397e052-05a6-4dea-9378-459f55b53bde))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 398b2678-5e6d-4dce-bcbd-4994ffc02752)
+    (at 263.15273 101.317523 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H79" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 8837c24e-171a-4e21-be0a-0c118e0aad52)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 8562a8e5-37bd-4428-8210-f85cd9dfcdac)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp e4467fc0-03a6-484d-9fe3-e02e1c3c1a28))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 39adfd4b-0387-4e87-9284-e2b1144dc078)
+    (at 196.87703 86.697271 -167.5)
+    (fp_text reference "" (at 0 0 -347.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 3483460b-33d6-48fd-a892-1f59cad2aec6)
+    )
+    (fp_text value "" (at 0 0 -347.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp a57ce40b-4b89-4f4b-9479-17de86b33e82)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 67811fdc-3dd9-4572-b705-06d9349db831))
+  )
+
+  (footprint "#footprint:M2_Hole" (layer "B.Cu")
+    (tstamp 4aaa3396-4285-46f9-9a52-abed42986525)
+    (at 220.023258 93.805586 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H3" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 7569e649-8db3-4e99-a955-f3b852a3773b)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp a3cecb76-e159-4175-b2c2-2adcaae9f6cb)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp bc852f56-889a-4752-b550-186374e310bd))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 4c91ba04-0187-4309-994a-7281d5627bfb)
+    (at 234.240835 69.921619 -77.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H117" (at 0 -1.651 102.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 3ed5e282-eec6-48e2-ab6e-f23de22bec21)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 102.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp c3e316e8-548d-45dc-bd41-c782697d19db)
+    )
+    (pad "" thru_hole circle (at 0 0 282.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 76f9f78e-6a46-4d36-bc50-2a5ef3783fd1))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 55c0c37c-2140-45f1-bf77-39fa6d34bb8f)
+    (at 165.631594 74.111661 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 3445765f-c2d2-451c-bad1-f4091a380a5f)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 25d618fd-5627-49c3-8fcb-d40a7e7e978a)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp f0a4b114-2244-4a44-9d88-ae92ada43739))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 5b6b0d2c-0246-4d77-b8a2-8b31518f33ea)
+    (at 257.987723 100.023512 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H80" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp ac10e041-ddb7-4dd7-901b-68872edd982b)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 622ae5eb-e8a6-4b35-b6a1-4201f356ea62)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp d781ab50-a64c-47ae-b291-6fda6905a4fd))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 66ac2d1d-200f-4520-96f0-3a53ab17d856)
+    (at 242.525759 30.279328 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 5f41d9f5-253c-47a7-b665-aba39a238cb1)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 5e67348a-4d7e-49d3-8977-b07cb98c6d0f)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 6ae74ee2-f623-4178-b179-2ea109b10051))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp 6cb0f7fa-f823-4e41-bb14-232e9eda709d)
+    (at 228.576929 33.371709 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H39" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 103296f2-25af-4c4a-9f29-76426b522664)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 67c42402-990b-460f-90a7-dd2c7da287fa)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 7b2dba73-2926-49d7-9e30-fb58b7e8022f))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 6eb5d7f9-5815-4632-b574-5a614c2e39f0)
+    (at 186.18199 106.186197 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp d91e6324-1cac-4948-9a12-40f13a55494d)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp cc2de09b-334b-4692-a656-b4e132144006)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp bb17ed65-dc86-4396-822e-f6328fa8c5c5))
+  )
+
+  (footprint "#footprint:Slit" (layer "B.Cu")
+    (tstamp 73751ba1-4370-42c2-ae44-6ef17c57c3e1)
+    (at 195.775541 75.196998 -167.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H67" (at 0 0.5 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp abfe05eb-0aa2-4f4a-a548-a50ab8f8d7b2)
+    )
+    (fp_text value "MountingHole" (at 0 -1 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 0e932e88-c8fb-4a38-9cc1-ada8b00950ec)
+    )
+    (pad "" np_thru_hole oval (at 0 0 192.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp bdce27e7-9ffa-4140-9588-581a215f6e49))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp 79963dcf-abe3-4de0-b9fb-82e181a4ea14)
+    (at 170.529241 92.538436 -167.5)
+    (fp_text reference "" (at 0 0 -347.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp bc685b5b-2803-4d7f-988e-ae7d3c1a5bf6)
+    )
+    (fp_text value "" (at 0 0 -347.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp b8c4ee3b-8442-412f-b216-1199862a04a7)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp d94835d9-5fd4-4995-b91a-193bbbd06a9c))
+  )
+
+  (footprint "#footprint:M2_Hole" (layer "B.Cu")
+    (tstamp 92d99144-da58-4dca-b429-f4c54d3d9c8e)
+    (at 211.776909 56.608709 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H6" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 945f4852-a842-41a5-9fa4-e53f0941f17f)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp aa53ec98-923e-43fa-9aa7-2415b7cc0f9e)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 2dad3843-d4b1-44f6-8607-9fde525069a5))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:Slit" (layer "B.Cu")
+    (tstamp 92d9a08d-39fe-44a2-9718-2948a23b3833)
+    (at 190.879271 53.111352 -167.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H64" (at 0 0.5 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp d1060308-cc98-4494-b749-84beae79389a)
+    )
+    (fp_text value "MountingHole" (at 0 -1 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 7cb343aa-1a03-4df2-b154-7b7348f226b8)
+    )
+    (pad "" np_thru_hole oval (at 0 0 192.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp 7342d4d1-615f-42d2-93b4-2d1c49976174))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp a2c912fa-5a4a-480e-93b6-c82af088692f)
+    (at 244.038894 103.115893 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H81" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp cf1ed174-369a-4ea0-bfde-edf57c58e3a6)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp ab2a2762-6f63-4666-83ea-12b672af4a49)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp a7fc09c9-3044-4d32-92cf-63bd19f087b9))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:Slit" (layer "B.Cu")
+    (tstamp aa3daf74-ffe2-4801-ae97-4272881e381f)
+    (at 197.407631 82.55888 -167.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H68" (at 0 0.5 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 22bbc2fb-269e-4da6-ae31-beaa3ecd387f)
+    )
+    (fp_text value "MountingHole" (at 0 -1 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp a5f73e4d-aff9-4425-b1b4-f658960fea25)
+    )
+    (pad "" np_thru_hole oval (at 0 0 192.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp 48588d38-5fda-4882-8a5f-dc6ef4dbc72e))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp b1af5538-4391-424e-98d8-54450dcb9a0e)
+    (at 207.87275 116.011814 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H17" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 0d4c37a2-fd8a-4a52-a0bb-909d07bd8fc3)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 707bd47a-0cec-463e-9518-2305baffa8c0)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp f56da543-30a4-4c45-9d26-1146e356e18f))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp b2062fdc-b367-45c9-92fd-3a6fecbe93e9)
+    (at 164.890138 74.320471 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp f11dff5a-459b-4fb2-b64f-d975e9ab8c0d)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 846f3300-ddee-46cb-8ef2-89d47e191796)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 42ce282b-9fa0-4031-b668-dfc01d5282f9))
+  )
+
+  (footprint "#footprint:Slit" (layer "B.Cu")
+    (tstamp b9844b41-3a51-4600-9b0c-12326d78ac88)
+    (at 204.063787 112.588907 -167.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H93" (at 0 0.5 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp c2a7aef7-13d1-459f-af6d-0bec2a82163e)
+    )
+    (fp_text value "MountingHole" (at 0 -1 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 6425d8bf-71b1-47f2-a7b3-ed9ed4bea5b6)
+    )
+    (pad "" np_thru_hole oval (at 0 0 192.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp 2225cd25-d20b-45b5-9b5c-f494270908a8))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp ba3bfbbf-ee6e-4559-866a-74c0a06801f2)
+    (at 267.820737 63.696667 -77.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H114" (at 0 -1.651 102.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp 7d8caee8-fe2d-42a1-9b37-0d48ce39718f)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 102.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 746008fb-97ac-4f58-a006-383e3778e4d1)
+    )
+    (pad "" thru_hole circle (at 0 0 282.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 8b949e69-9667-4389-af4c-2725eb2b4865))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp c140bdb0-f997-4c05-a28f-348f0b5b4023)
+    (at 196.53402 64.866107 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp a77b8f15-b4d8-4ec4-8280-c99394fe5910)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp e414b362-6959-4f72-83d2-b8e2e1376b2b)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 10d06f70-ea3f-4581-ac2e-812e140b9481))
+  )
+
+  (footprint "#footprint:Slit" (layer "B.Cu")
+    (tstamp d0f8aeec-ecbd-4ecf-bcab-97e8bbd250b8)
+    (at 202.646442 106.195677 -167.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H93" (at 0 0.5 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 2f3bae10-43d0-4ba5-ab8f-ad7b5f70c370)
+    )
+    (fp_text value "MountingHole" (at 0 -1 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 5034472c-aea1-4523-85be-67739adef468)
+    )
+    (pad "" np_thru_hole oval (at 0 0 192.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp de16db96-ca6b-40b6-b5bb-b39f0e4c631f))
+  )
+
+  (footprint "#footprint:M1.4_tapping_Hole_rev2" (layer "B.Cu")
+    (tstamp d3861607-03fa-42ee-85d9-34b070b02267)
+    (at 206.359674 43.175287 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H42" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp c9d52df5-e280-4640-ba71-7120ea4d4839)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 6449ff3f-aea8-493a-9660-6acde63a4089)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 272f0668-d0ef-4e02-9dee-90950b2b3cb1))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "#footprint:Slit" (layer "B.Cu")
+    (tstamp d3ef58de-f9d5-460f-bafd-441becf731f9)
+    (at 194.143451 67.835116 -167.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H66" (at 0 0.5 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 382893fb-6c27-4888-ba05-5972f8fcb003)
+    )
+    (fp_text value "MountingHole" (at 0 -1 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp 67a26d87-3d40-444f-b786-0c3b57d5aa6c)
+    )
+    (pad "" np_thru_hole oval (at 0 0 192.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp eb0b7202-3131-463a-b5a3-8f40e0089ff4))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp d4d9c291-8a1a-49be-8e4f-8ae69f5b496a)
+    (at 168.723519 88.06054 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp b8136bdf-4933-4de4-8f28-a9e854d4bb46)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp dd3755be-4ead-4d33-a9b9-50df08ecb53c)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp 844446dc-369c-42af-8277-03c444e3b842))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp d7a3d4a0-5766-4490-aa96-d3dbbf661eff)
+    (at 200.657254 83.464584 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp b888d824-b61c-4674-b1d3-ae1b28ee8fa2)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp c6e4b2f5-7a99-4a20-8a13-3e64c55fd18e)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 45125c4b-532e-4c4f-8eec-8b69955e1255))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp e1426b71-4c93-4dd2-9885-370c7231798b)
+    (at 277.101603 98.225341 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp b986783e-8ab6-4d79-9abd-6d1f4390ac54)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 160cde25-426b-407c-a519-ce9639baec15)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 81c90dcb-0f62-4a8d-ba0b-8bdd96d36bce))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp e4f9afd7-3976-4136-8587-9107452d511f)
+    (at 192.410845 46.267668 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp ba01aec1-9aa4-4a93-9c9f-36ba8249394e)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp e4edbb79-ad70-4e01-8b0d-c5cdc70b8966)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 722166bf-3875-497f-b107-b8c7a5d18f88))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp e599f6d4-1cc3-4760-aa09-f251f868b4e5)
+    (at 203.749565 97.413326 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 132ea24d-f97b-41a8-a776-826e795bd18a)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 3d47de11-5ef7-48ac-bde0-b8bf7dbca2ac)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp be8305ae-31c2-4f56-9cd1-23973e55b2ea))
+  )
+
+  (footprint "#footprint:Slit" (layer "B.Cu")
+    (tstamp f34fe93b-c6c1-457c-9edb-65344c7d29e1)
+    (at 192.511375 60.473297 -167.5)
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H65" (at 0 0.5 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp cc118c27-f56b-441e-82c4-f8b3761a484e)
+    )
+    (fp_text value "MountingHole" (at 0 -1 12.5 unlocked) (layer "B.Fab")
+        (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (tstamp a935073b-5d2b-41c3-ae95-523bcca873f6)
+    )
+    (pad "" np_thru_hole oval (at 0 0 192.5) (size 1.190625 3.969) (drill oval 1.190625 3.969) (layers "*.Cu" "*.Mask") (tstamp f0a20a8e-0554-4a68-b908-9c902a64a424))
+  )
+
+  (footprint "" (layer "B.Cu")
+    (tstamp fad8be04-264e-4039-a0b2-efc9c726c953)
+    (at 210.493898 39.819737 -167.5)
+    (fp_text reference "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp 298ccb8a-d1d8-4e75-9ef1-693c816493ac)
+    )
+    (fp_text value "" (at 0 0 12.5) (layer "B.SilkS")
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
+      (tstamp c458e065-f53a-4f22-b972-604f48e268ac)
+    )
+    (pad "" thru_hole circle (at 0 0 192.5) (size 1.43 1.43) (drill 1.28) (layers "*.Cu" "*.Mask") (tstamp 11b00806-5ac8-4d44-b85e-9a6247771023))
+  )
+
+  (footprint "#footprint:M2_Hole" (layer "B.Cu")
+    (tstamp fb1a2bdc-94ea-4e06-b98a-c138f7d9913c)
+    (at 257.220136 85.559237 -167.5)
+    (descr "Resitance 3 pas")
+    (tags "R")
+    (property "Sheetfile" "pangaea.kicad_sch")
+    (property "Sheetname" "")
+    (fp_text reference "H4" (at 0 -1.651 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
+      (tstamp d8ad4e48-c15c-4992-9e41-1c462491c829)
+    )
+    (fp_text value "MountingHole" (at 0 1.4605 12.5) (layer "B.Fab") hide
+        (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+      (tstamp 69e9670f-76d0-4174-bdd1-9739cedaff51)
+    )
+    (pad "" np_thru_hole circle (at 0 0 192.5) (size 1.95 1.95) (drill 1.95) (layers "*.Cu" "*.Mask") (tstamp b2d7d2fd-15c0-4108-ba92-c88ac46f3ca2))
+    (model "discret/resistor.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+    (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.2 0.2 0.2))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (gr_line (start 238.583808 100.971836) (end 236.216973 99.463994)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 017a72ba-88b9-4041-a483-d666d234d9b3))
+  (gr_line (start 239.232653 94.730323) (end 239.662151 96.667662)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 0c22b6b0-e020-4117-845b-ee1fcacc1582))
+  (gr_line (start 47.061494 51.639505) (end 47.147394 51.252037)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 0d150b3a-f11a-4466-aa3b-1563a34a5ad5))
+  (gr_arc (start 255.988013 53.413469) (mid 257.495904 51.046646) (end 259.862689 52.554474)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 140649fe-849a-400b-a381-d4d3a74e507f))
+  (gr_arc (start 236.216973 99.463994) (mid 236.002243 98.495395) (end 236.970892 98.280578)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 19c9bf17-626c-4b0c-8afc-911eafa2bc25))
+  (gr_line (start 258.571897 51.316219) (end 258.89402 52.769223)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 1a3e4f34-a85a-4f15-955e-04f0450d97c5))
+  (gr_line (start 238.15431 99.034498) (end 236.970892 98.280578)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 1b1cd525-bf4e-4b2a-b007-6bfb3bcc2346))
+  (gr_line (start 238.371359 95.429407) (end 238.693482 96.88241)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 1c030258-6a9a-4064-af0b-c63ba275c286))
+  (gr_line (start 45.965846 55.664977) (end 49.840522 56.523972)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 1c4022b3-298b-4bb1-bf55-85cba0c5ff83))
+  (gr_line (start 70.104085 97.602296) (end 68.920665 98.356218)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 1ec6c078-75ec-4656-8c3c-faf28684334f))
+  (gr_line (start 256.847008 57.288146) (end 254.480172 55.780304)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 21ac37a4-c0ac-4e7c-8f2c-faca24641052))
+  (gr_line (start 45.965846 55.664977) (end 46.824841 51.7903)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 2bb7aa10-94f1-4939-b01e-bbcb604d1d71))
+  (gr_line (start 260.721684 56.429151) (end 256.847008 57.288146)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 2d65e5ff-6d24-4976-ab26-b8b3a3239a2c))
+  (gr_line (start 49.730848 52.434547) (end 50.052971 50.981543)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 32a3bbdd-98f3-43a3-849a-0690c008930f))
+  (gr_line (start 47.448963 51.725405) (end 47.663712 50.756734)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 3b273d2f-cb1d-4e33-8e8d-a2074bcc290c))
+  (gr_line (start 256.634559 51.745717) (end 256.956682 53.198721)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 3fe587dd-02b0-451c-a924-8eae296b41ce))
+  (gr_line (start 69.716638 97.516404) (end 68.53322 98.270324)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 4638b9c7-2a82-43c0-8849-0705789298e9))
+  (gr_line (start 64.229045 99.348667) (end 68.103722 100.207662)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 5368e5ee-02ae-4c3c-b4a0-b5a84ba186fd))
+  (gr_line (start 70.448604 97.88193) (end 69.028499 98.786636)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 546d77b9-9d45-4836-adde-eab5fd0681b0))
+  (gr_arc (start 237.724813 97.097159) (mid 239.232704 94.730348) (end 241.599489 96.238164)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 550feda4-0ead-4aaf-8efe-4a823cf5f039))
+  (gr_arc (start 46.824841 51.7903) (mid 49.191668 50.282492) (end 50.699517 52.649295)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 5597cad0-05ca-449a-a6fe-956242368ba6))
+  (gr_line (start 70.470557 98.69982) (end 68.103722 100.207662)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 5a3cce7e-e4a3-4e4f-b462-02d1a69d8add))
+  (gr_line (start 48.762179 52.219798) (end 49.191677 50.28246)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 5a6b3196-7515-40da-8f45-3e5341d8c322))
+  (gr_line (start 68.53322 98.270324) (end 68.962717 96.332985)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 5af5eb09-ef8f-42b5-9f12-244f7f785833))
+  (gr_arc (start 65.088041 95.47399) (mid 67.454868 93.966182) (end 68.962717 96.332985)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 5e023d3a-cc9d-44db-a817-0df7a7ae31f8))
+  (gr_line (start 259.862689 52.554474) (end 258.894048 52.769213)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 64ebfa50-9423-425d-b657-91354648c7b9))
+  (gr_line (start 240.308697 94.999909) (end 240.63082 96.452913)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 6f8e333f-0789-43ed-808f-27ad3a982766))
+  (gr_line (start 52.207358 55.01613) (end 49.840522 56.523972)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 74cd2dc5-a9e8-47d6-aed8-e1837e0795cf))
+  (gr_line (start 70.556456 98.312355) (end 69.373018 99.06627)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 757ddf4c-2a3b-4ba5-bc35-000d92100079))
+  (gr_line (start 259.862689 52.554474) (end 260.721684 56.429151)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 769d9dd8-5874-4ebc-b690-093ac6146d52))
+  (gr_line (start 67.025379 95.903488) (end 67.454877 93.966149)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 7bbd74f3-87f8-4650-9975-eade1adaf43e))
+  (gr_line (start 241.599489 96.238164) (end 242.458485 100.112841)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 817051fa-f3d4-4195-8d04-2a11c70e42d3))
+  (gr_line (start 64.229045 99.348667) (end 65.088041 95.47399)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 818b3239-6a49-4374-a647-3efa972fe76a))
+  (gr_line (start 66.05671 95.688739) (end 66.378833 94.235735)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 8ac962de-7d03-4aae-981b-dad69100bb16))
+  (gr_line (start 256.41751 55.350808) (end 255.234091 54.596889)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 9134cbc3-ad8c-4d66-8191-2b5447e8f8ba))
+  (gr_line (start 237.314512 99.830444) (end 236.131074 99.076529)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 92b3c09e-f397-4e6e-96f0-71b72d91dd4d))
+  (gr_line (start 259.540136 52.016211) (end 259.626036 52.403679)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp 9a2c7777-c572-4a3c-801f-5a565c9ffb75))
+  (gr_line (start 238.15431 99.034498) (end 237.40039 100.217915)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp a3cabd0d-e7f8-423f-bcf1-0d36c3f6d501))
+  (gr_line (start 237.659031 99.55081) (end 236.238926 98.646104)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp aabfc14d-ffb1-4249-8db8-6b136d759d07))
+  (gr_line (start 51.453439 53.832715) (end 50.27002 54.586634)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp aafd707d-f248-4c1f-b68c-423211d25ee8))
+  (gr_line (start 237.724813 97.097159) (end 238.15431 99.034498)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp af23dbb5-69df-404f-a00f-451ba43061d0))
+  (gr_line (start 47.793482 52.005039) (end 46.824841 51.7903)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp bbd10a35-4b75-4c0f-b7e0-c270be703110))
+  (gr_line (start 50.27002 54.586634) (end 50.699517 52.649295)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp bd35f0e1-32c3-4f15-8282-48ecd184e9d8))
+  (gr_line (start 237.766865 99.120392) (end 236.583445 98.36647)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp bd41914c-e593-4191-bedd-09c2c3972705))
+  (gr_line (start 255.988013 53.413469) (end 256.41751 55.350808)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp be1f4124-c570-4f4c-9bea-c3df9e2d8cf4))
+  (gr_line (start 67.994048 96.118236) (end 68.316171 94.665233)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp c7e71b56-cda0-407d-b829-b122275842c7))
+  (gr_line (start 47.79351 52.005049) (end 48.115633 50.552045)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp c99e72da-e0b9-4257-a3df-7abbc3efbda1))
+  (gr_line (start 257.495853 51.046634) (end 257.925351 52.983972)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp caf30207-5005-41aa-808a-6485d881abd5))
+  (gr_arc (start 51.453439 53.832715) (mid 52.422129 54.047463) (end 52.207358 55.01613)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp e2d654b2-2651-4cb1-b87f-2c99d9af7616))
+  (gr_line (start 259.023818 51.520908) (end 259.238567 52.489579)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp e7be97be-b68e-4297-8e41-66f37d394980))
+  (gr_arc (start 69.716638 97.516404) (mid 70.685337 97.731158) (end 70.470557 98.69982)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp ea608fed-5b12-48f0-94b8-3b20205165fe))
+  (gr_arc (start 254.480172 55.780304) (mid 254.265436 54.81169) (end 255.234091 54.596889)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp f020e843-7c1c-4403-9917-fef926b39344))
+  (gr_line (start 242.458485 100.112841) (end 238.583808 100.971836)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp f7d28a59-8c0c-4b19-b4fc-db3eb3e90ba0))
+  (gr_line (start 69.28714 99.453741) (end 68.53322 98.270324)
+    (stroke (width 0.5) (type solid)) (layer "B.SilkS") (tstamp fa250de4-a8be-49e9-9909-4cdc0b210206))
+  (gr_line (start 48.762179 52.219798) (end 49.191677 50.28246)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 0842d6b9-7b0e-4ec2-9ceb-948293e68387))
+  (gr_line (start 67.025379 95.903488) (end 67.454877 93.966149)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 0d46cb13-95ae-4af4-90f8-b0dcac31de4f))
+  (gr_line (start 69.716638 97.516404) (end 68.53322 98.270324)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 15a08ed0-bf20-42a9-870a-9ec9c37adc66))
+  (gr_arc (start 51.453439 53.832715) (mid 52.422129 54.047463) (end 52.207358 55.01613)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 1609edef-24b6-4b02-a556-30717b59a88c))
+  (gr_line (start 47.793482 52.005039) (end 46.824841 51.7903)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 18f623cd-2fdf-46f7-9f68-4acc92ef0af0))
+  (gr_line (start 47.061494 51.639505) (end 47.147394 51.252037)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 1a3f3bee-8981-408e-9a58-96cfd21348f9))
+  (gr_line (start 241.599489 96.238164) (end 242.458485 100.112841)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 1d08e673-a097-48c2-afc5-02f4afedc4b6))
+  (gr_line (start 67.994048 96.118236) (end 68.316171 94.665233)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 1d7542b9-2de3-4386-a837-599c763897d1))
+  (gr_arc (start 65.088041 95.47399) (mid 67.454868 93.966182) (end 68.962717 96.332985)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 21c5fdc6-e923-4802-8b81-4a81a3ec0f20))
+  (gr_arc (start 254.480172 55.780304) (mid 254.265436 54.81169) (end 255.234091 54.596889)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 26b1d6b7-e798-4d0f-820f-85babbeb9faf))
+  (gr_line (start 47.79351 52.005049) (end 48.115633 50.552045)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 38484f74-4fef-4194-a115-68446c578c25))
+  (gr_line (start 64.229045 99.348667) (end 65.088041 95.47399)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 4432c827-df84-4ede-ad03-d7b0e70a4d58))
+  (gr_line (start 238.15431 99.034498) (end 237.40039 100.217915)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 4969c0d0-1393-4e7b-9b82-07529839f917))
+  (gr_line (start 49.730848 52.434547) (end 50.052971 50.981543)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 4b30662f-a21f-4a6d-bb23-75a41a470982))
+  (gr_line (start 47.448963 51.725405) (end 47.663712 50.756734)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 4d687ee5-6c34-4174-90dd-47c3d993544a))
+  (gr_line (start 50.27002 54.586634) (end 50.699517 52.649295)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 54ee1d97-ad9e-4e2f-8fb1-285ba52830d4))
+  (gr_line (start 238.583808 100.971836) (end 242.458485 100.112841)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 560395b4-ad76-4257-a337-9ba732be12a6))
+  (gr_line (start 70.470557 98.69982) (end 68.103722 100.207662)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 5a8dc568-54a3-4ac3-ad55-b3315bcdd976))
+  (gr_line (start 66.05671 95.688739) (end 66.378833 94.235735)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 5b484d89-7599-4572-80d1-12bd47742d00))
+  (gr_line (start 68.103722 100.207662) (end 64.229045 99.348667)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 5c69ddf2-f376-4787-84e3-9649529d53ab))
+  (gr_line (start 256.847008 57.288146) (end 254.480172 55.780304)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 5fa91cc3-9eaf-495f-a95b-31ba59086fcd))
+  (gr_arc (start 46.824841 51.7903) (mid 49.191668 50.282492) (end 50.699517 52.649295)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 6287820e-96ef-4535-998f-26476c363a71))
+  (gr_line (start 259.862689 52.554474) (end 258.894048 52.769213)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 6556fd72-d253-4bcf-beae-4d17ecc1b6a5))
+  (gr_line (start 237.314512 99.830444) (end 236.131074 99.076529)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 6f322255-6b52-4d48-8822-1a2ceee7d812))
+  (gr_arc (start 255.988013 53.413469) (mid 257.495904 51.046646) (end 259.862689 52.554474)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 6f721814-114d-47a5-9f82-a6e9e8863481))
+  (gr_line (start 237.724813 97.097159) (end 238.15431 99.034498)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 7079201a-f4d3-46ff-9b67-8e14fc858195))
+  (gr_line (start 258.571897 51.316219) (end 258.89402 52.769223)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 7b5c40b3-40e2-485d-b605-6915a677bcd3))
+  (gr_line (start 256.634559 51.745717) (end 256.956682 53.198721)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 7c83f854-fc90-4cf7-bab8-3333c96c6aef))
+  (gr_line (start 238.15431 99.034498) (end 236.970892 98.280578)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 8943333c-60c4-415a-b3e9-833a1fe1a2b1))
+  (gr_line (start 237.659031 99.55081) (end 236.238926 98.646104)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 89bcf597-5f25-45a6-862f-9160b2af2a4f))
+  (gr_line (start 256.41751 55.350808) (end 255.234091 54.596889)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 8a0ec5b1-1571-4531-985f-bf067a2272c8))
+  (gr_line (start 237.766865 99.120392) (end 236.583445 98.36647)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 9f6383df-580c-410d-ade7-887dd36bcd46))
+  (gr_line (start 51.453439 53.832715) (end 50.27002 54.586634)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 9fb5c3a1-4405-4a82-9301-8895af4cdacc))
+  (gr_line (start 255.988013 53.413469) (end 256.41751 55.350808)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp a01e7393-e0e1-4d31-9b70-0a7b7d136d34))
+  (gr_line (start 238.371359 95.429407) (end 238.693482 96.88241)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp abe19284-11f9-4682-96d9-608914649225))
+  (gr_line (start 45.965846 55.664977) (end 46.824841 51.7903)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp ac10a8af-937c-4ece-aa26-74e2467211dd))
+  (gr_line (start 240.308697 94.999909) (end 240.63082 96.452913)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp b0e29aa6-e0e8-4ae3-8759-5452c6200f7e))
+  (gr_line (start 70.104085 97.602296) (end 68.920665 98.356218)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp b5b959c5-bbd0-47b4-9eac-295e3e8eceeb))
+  (gr_line (start 257.495853 51.046634) (end 257.925351 52.983972)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp bf0ff882-31c2-422a-a3a3-83c83337caee))
+  (gr_line (start 49.840522 56.523972) (end 45.965846 55.664977)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp c371695a-46bc-47b0-8f0c-55295ede085f))
+  (gr_line (start 238.583808 100.971836) (end 236.216973 99.463994)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp c605a4b5-1746-4083-9c72-f87d90b4ba0c))
+  (gr_line (start 239.232653 94.730323) (end 239.662151 96.667662)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp c99d4f24-ba78-4207-8904-ff3d4af45653))
+  (gr_line (start 259.862689 52.554474) (end 260.721684 56.429151)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp ce4a2ff6-db2d-46be-afcf-334ab0df1c15))
+  (gr_line (start 52.207358 55.01613) (end 49.840522 56.523972)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp d01a681e-8922-4abc-96dc-092e0b9e13eb))
+  (gr_line (start 69.28714 99.453741) (end 68.53322 98.270324)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp d5b72045-5d85-4054-87cc-26a16cb227cb))
+  (gr_line (start 259.540136 52.016211) (end 259.626036 52.403679)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp e5ffc921-2b93-4110-a0f0-b359c6da054a))
+  (gr_arc (start 237.724813 97.097159) (mid 239.232704 94.730348) (end 241.599489 96.238164)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp ef0bbfb6-cda5-4649-b7a7-85c7675dc196))
+  (gr_line (start 68.53322 98.270324) (end 68.962717 96.332985)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp f0c14baf-2680-46a2-89e4-2b979a3d039c))
+  (gr_line (start 70.556456 98.312355) (end 69.373018 99.06627)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp f2bac464-dea3-4ef0-9982-f6682a533203))
+  (gr_arc (start 69.716638 97.516404) (mid 70.685337 97.731158) (end 70.470557 98.69982)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp f4dc30d4-fb56-485d-b881-2a73fb1f0063))
+  (gr_line (start 70.448604 97.88193) (end 69.028499 98.786636)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp f74923dc-548d-4af5-bc2b-273630b2fbab))
+  (gr_line (start 256.847008 57.288146) (end 260.721684 56.429151)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp f9ab6f63-af67-461c-b580-e55ea8d67cb5))
+  (gr_arc (start 236.216973 99.463994) (mid 236.002243 98.495395) (end 236.970892 98.280578)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp fe9dc5bb-cb17-470c-9794-c94fee9b2579))
+  (gr_line (start 259.023818 51.520908) (end 259.238567 52.489579)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp ffac0512-39c4-4ee8-8c89-a85c3b65848f))
+  (gr_line (start 199.440951 95.725784) (end 114.440951 95.725784)
+    (stroke (width 0.15) (type default)) (layer "Dwgs.User") (tstamp 30eb5d90-93f1-4456-94d9-f857afc2bf87))
+  (gr_circle (center 138.491232 92.538441) (end 139.653635 92.796139)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp 0f3c0840-7185-4345-85c5-e37c35fa8c9d))
+  (gr_circle (center 248.973787 48.362359) (end 246.648982 48.877756)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Eco1.User") (tstamp 287e6f27-1b7e-485a-8e96-66d944b46926))
+  (gr_circle (center 195.360639 87.077881) (end 194.198236 87.335579)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp 2ebcf28d-bebd-4b0e-a78f-01289aab4450))
+  (gr_line (start 251.298592 47.846962) (end 252.329386 52.496572)
+    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp 31421ad6-be41-4e0e-a023-769c07819726))
+  (gr_circle (center 165.375273 69.290388) (end 164.21287 69.548086)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp 3c69380d-80e9-4c36-b79f-abfcac39c560))
+  (gr_circle (center 86.664272 93.041412) (end 88.989076 93.556809)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Eco1.User") (tstamp 45da8d45-e3dc-4cff-a964-5342eb3a0f5f))
+  (gr_circle (center 94.910621 55.844535) (end 97.235426 56.359931)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Eco1.User") (tstamp 4668cafc-a3d6-4b07-a2c6-de90a099d7bf))
+  (gr_circle (center 164.633817 69.499197) (end 163.471415 69.756896)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp 4c8fb085-9e0a-4000-ad5a-8f916268c4c0))
+  (gr_circle (center 220.023258 93.805586) (end 217.698454 94.320983)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Eco1.User") (tstamp 4cdc7c70-8d78-4a86-b277-ba33d725ea64))
+  (gr_circle (center 170.529241 92.538436) (end 169.366838 92.796135)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp 6a04f199-359e-4a5a-9054-19dd9caad9d9))
+  (gr_line (start 123.323765 121.865304) (end 183.323765 121.865304)
+    (stroke (width 0.15) (type default)) (layer "Eco1.User") (tstamp 75c1c6e0-301b-4429-a907-1ca6978ffffb))
+  (gr_circle (center 257.220136 85.559237) (end 254.895331 86.074634)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Eco1.User") (tstamp 765c5c29-df58-492e-ba98-ad2baa2699ff))
+  (gr_line (start 239.915837 84.517986) (end 228.565951 55.325784)
+    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp 7a4217f1-d6bb-48f3-ada5-d6207d940117))
+  (gr_circle (center 143.6452 69.290392) (end 144.807603 69.548091)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp 81583c7f-67e0-47fd-9de4-ce51e3616c24))
+  (gr_circle (center 111.326891 86.313707) (end 112.489294 86.571405)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp 84b8306f-8f2e-4826-b741-f952ba442245))
+  (gr_circle (center 142.053713 68.735023) (end 143.216115 68.992722)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp 9753b78e-5974-48fa-8bd8-3587da9201c4))
+  (gr_line (start 183.323765 46.865304) (end 183.323765 121.865304)
+    (stroke (width 0.15) (type default)) (layer "Eco1.User") (tstamp 997a0d26-4541-4d34-9790-b9341f781aa2))
+  (gr_line (start 154.323765 46.525784) (end 154.323765 102.2163)
+    (stroke (width 0.15) (type default)) (layer "Eco1.User") (tstamp adb91b37-cd8d-4ca0-8cc0-608dac093d23))
+  (gr_circle (center 211.776909 56.608709) (end 209.452104 57.124105)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Eco1.User") (tstamp b7d7723c-a2df-4514-8da1-e528b26d7ede))
+  (gr_circle (center 117.59756 58.02855) (end 118.759962 58.286248)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp c4f8e998-6897-43c5-b170-cf397fc54223))
+  (gr_circle (center 57.713743 47.598185) (end 60.038548 48.113582)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Eco1.User") (tstamp c5072d48-fcb0-46ce-aaf0-e2002d7baf9c))
+  (gr_line (start 54.358144 51.732398) (end 54.831511 51.43083)
+    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp c5b324d9-dd50-40b3-b121-fad8e10e8717))
+  (gr_circle (center 169.787785 92.747246) (end 168.625383 93.004944)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp c87a0f11-df4a-4618-9d04-60e1932efcff))
+  (gr_line (start 251.856019 52.195004) (end 252.329386 52.496572)
+    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp dc71b2d1-02f4-42f6-af52-055a59c26152))
+  (gr_line (start 78.121579 54.56161) (end 66.771693 83.753812)
+    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp dfb75141-fb63-4b23-90f6-8e95e2d76364))
+  (gr_circle (center 136.899745 91.983072) (end 138.062147 92.24077)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp e02f3b1e-431f-45be-a163-907686d4fc87))
+  (gr_circle (center 189.08997 58.792724) (end 187.927568 59.050422)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "Eco1.User") (tstamp e1f52bb5-d1e8-4a6e-b02a-37ef5c17e091))
+  (gr_line (start 123.323765 46.865304) (end 183.323765 46.865304)
+    (stroke (width 0.15) (type default)) (layer "Eco1.User") (tstamp ea7ab3e6-50ca-4a77-9f07-1e46a161421d))
+  (gr_line (start 54.358144 51.732398) (end 55.388938 47.082788)
+    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp f9990d84-8c65-4ca4-ade7-af610d226faf))
+  (gr_line (start 123.323765 46.865304) (end 123.323765 121.865304)
+    (stroke (width 0.15) (type default)) (layer "Eco1.User") (tstamp fe08c493-457e-42ea-9e7e-5bec0017532b))
+  (gr_circle (center 49.467394 84.795063) (end 51.792199 85.31046)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Eco1.User") (tstamp ff84cde2-af48-4afb-9cc2-6c80d2c567e7))
+  (gr_line (start 80.778944 31.5731) (end 80.607145 32.348035)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 0139dee8-29db-4cbb-8bb6-be7ac35cf41b))
+  (gr_arc (start 62.180505 27.449925) (mid 62.52896 26.9523) (end 63.127239 26.846789)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 0385a7b7-40c4-4e99-ba77-f12ab17618b4))
+  (gr_arc (start 202.112015 101.028501) (mid 202.059284 101.327666) (end 201.810447 101.501868)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 03f9c6ac-4a4a-4451-ad94-123da09868d1))
+  (gr_arc (start 226.080385 33.112209) (mid 225.974904 33.71051) (end 225.477249 34.058943)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 048201f2-a580-4289-b24d-7373034cc6e3))
+  (gr_arc (start 63.854908 104.245187) (mid 64.352494 104.59366) (end 64.458044 105.191921)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 05dc355c-1573-44b6-977c-630210512d37))
+  (gr_line (start 81.210281 33.294769) (end 98.25885 37.074345)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 08634271-865c-4d45-a5ee-955e0c670668))
+  (gr_line (start 139.655862 94.220132) (end 148.589407 53.923515)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 09062ad0-606a-46f9-b79d-211e68dc92d4))
+  (gr_line (start 109.475477 87.731879) (end 118.409023 47.435261)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 0c1d7d1c-cd96-4b4f-9809-d5547aa04e07))
+  (gr_arc (start 147.986271 52.976781) (mid 148.483944 53.325226) (end 148.589407 53.923515)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 0f9a433f-a0f5-4ac8-85ca-76a3e43f1974))
+  (gr_line (start 123.173954 104.387502) (end 119.566176 120.661136)
+    (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp 11e5a85b-d80d-45db-99db-629163fc7855))
+  (gr_line (start 158.098123 54.687689) (end 167.031668 94.984306)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 186b56b3-3862-45fc-b886-0736b32ad228))
+  (gr_arc (start 119.566176 120.661136) (mid 119.217701 121.158728) (end 118.619442 121.264272)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 1d83e5a2-c310-410c-a6e5-3bd8d1fd0986))
+  (gr_line (start 44.013403 25.048419) (end 61.061972 28.827996)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 20540a7f-b1d5-477b-b8a4-970f33fd2b65))
+  (gr_arc (start 98.25885 37.074345) (mid 98.756504 37.422788) (end 98.861986 38.021079)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 20e180be-3413-46b6-a61c-81626f38dd8b))
+  (gr_line (start 208.42868 37.838519) (end 225.477249 34.058943)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 24861797-7f0d-4c3b-9b64-1f61bde21a2c))
+  (gr_arc (start 200.002879 100.683063) (mid 200.601145 100.788586) (end 200.949613 101.286199)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 24ee93d2-d0e3-41d0-9100-2ea7653942cc))
+  (gr_arc (start 188.068088 122.028446) (mid 187.469804 121.922944) (end 187.121354 121.42531)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 25b862a9-2e12-4e08-b336-35cb85e418a0))
+  (gr_arc (start 198.718066 87.553039) (mid 199.017198 87.60581) (end 199.191433 87.854607)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 25f3e936-f9db-4fe9-ba1f-0120d35d6a29))
+  (gr_arc (start 101.828571 116.322292) (mid 102.07739 116.496529) (end 102.130139 116.795659)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 2a4058a4-e100-4fb1-a02c-86fb19c10bc0))
+  (gr_line (start 187.121354 121.42531) (end 183.513576 105.151676)
+    (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp 2b0e8a67-10f5-4ba8-963e-1402978a5f23))
+  (gr_arc (start 189.742502 45.233233) (mid 189.847993 44.634955) (end 190.345638 44.286499)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 2cd830a4-1f50-4cfd-87ed-b594ca17c8cf))
+  (gr_line (start 148.803287 53.360485) (end 160.217186 53.36048)
+    (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp 2eb479bc-7949-4874-83d3-05baa5eb6493))
+  (gr_arc (start 242.401285 106.73103) (mid 242.295746 107.329278) (end 241.798149 107.677764)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 30d02e10-1734-4a0a-b020-2a0e62bab2fe))
+  (gr_arc (start 139.655862 94.220132) (mid 139.307388 94.717719) (end 138.709128 94.823268)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 310e4622-c49a-40ff-8904-a4636fa2374e))
+  (gr_line (start 98.861986 38.021079) (end 98.690187 38.796014)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 320cc628-eabc-4c55-adfd-5e6748a5eec0))
+  (gr_line (start 160.217186 53.36048) (end 189.664716 46.83212)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 327f2c2e-8d08-489a-8d9a-0feddc46dc5e))
+  (gr_arc (start 225.908586 32.337274) (mid 226.014104 31.739008) (end 226.511722 31.39054)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 350c237f-1ff4-450e-a35e-365e27e23ac5))
+  (gr_line (start 279.598163 98.48468) (end 263.620861 26.415729)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 3bc2c64d-9ed6-487a-a0e3-f9934aa093c3))
+  (gr_arc (start 116.341892 43.522325) (mid 116.839519 43.870793) (end 116.945028 44.469059)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 3c81f4bb-4c85-4545-9c85-ab398a371525))
+  (gr_line (start 198.94186 88.678608) (end 169.49433 95.206968)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 3e443c11-aa19-4215-b77a-9edf60bed595))
+  (gr_line (start 226.511722 31.39054) (end 243.560291 27.610963)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 3f55a925-28ef-4d87-96c6-8d38a33f81d3))
+  (gr_line (start 199.191433 87.854607) (end 202.112015 101.028501)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 413f26dc-1ca7-4062-b34e-35e1a5b9787f))
+  (gr_arc (start 205.246426 117.000567) (mid 205.545556 117.053321) (end 205.719793 117.302135)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 420f83f7-972a-44ed-8d0f-f270e5116409))
+  (gr_arc (start 110.078613 88.678612) (mid 109.580996 88.330158) (end 109.475477 87.731879)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 4b23ec58-687b-4571-a1b0-3829aaae0e82))
+  (gr_line (start 158.701259 53.740955) (end 188.148752 47.212551)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 4bba7d97-e57f-41a7-aecc-21f4d1c91839))
+  (gr_arc (start 224.146444 112.404074) (mid 224.251963 111.80582) (end 224.74958 111.45734)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 4c601059-4abb-435a-bfe2-dc9c3de7c9e6))
+  (gr_line (start 82.972423 113.361569) (end 100.020992 117.141146)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 506a83f3-e35b-4e71-a8a3-c5df1cc3f388))
+  (gr_line (start 46.806339 100.46561) (end 63.854908 104.245187)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 51f90e02-18ea-428e-b498-831ffc96ad24))
+  (gr_arc (start 201.42298 101.587767) (mid 201.123844 101.535007) (end 200.949613 101.286199)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 53558bdb-6d26-429a-be4e-597eb59365e3))
+  (gr_arc (start 261.946458 103.210991) (mid 261.348163 103.10552) (end 260.999724 102.607855)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 56f85799-b526-41de-9423-4dde70590471))
+  (gr_line (start 45.687806 101.843681) (end 45.859605 101.068746)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 591c3c1e-239e-4934-b271-087b75ab790e))
+  (gr_line (start 27.692503 98.66724) (end 44.741072 102.446817)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 5c0bb09d-f698-4123-b1b6-b3fb38a33b40))
+  (gr_line (start 244.507025 28.214099) (end 244.678824 28.989034)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 5db3710a-9335-4a71-ba4e-a780a3740c24))
+  (gr_line (start 116.73121 47.267182) (end 117.118677 47.353081)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 5f4e3259-88df-4cbe-9ac0-0534fefb58a2))
+  (gr_arc (start 105.737917 100.522025) (mid 106.086373 100.024406) (end 106.684651 99.918889)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 61088709-3cca-49f0-b099-47a75605c810))
+  (gr_arc (start 204.557391 117.559833) (mid 204.610137 117.2607) (end 204.858959 117.086466)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 6132465d-c222-407b-a8b3-01acc3749ed1))
+  (gr_arc (start 190.257888 47.557989) (mid 190.205162 47.857156) (end 189.95632 48.031356)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 613928a7-571d-4367-9e5a-b2faaf22f3d1))
+  (gr_line (start 139.526143 95.206973) (end 169.49433 95.206968)
+    (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp 61b490d7-03c2-49ff-8835-4ce9b4421ef0))
+  (gr_line (start 101.828571 116.322292) (end 101.441104 116.236393)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 64084548-4745-4e4e-9eac-4bde87399148))
+  (gr_arc (start 207.825544 38.785253) (mid 207.931071 38.186991) (end 208.42868 37.838519)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 64248280-ff01-48e3-b616-ffb41c2235da))
+  (gr_line (start 184.116712 104.204942) (end 200.002879 100.683063)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 65758518-6dd4-4725-93fc-e631e151926b))
+  (gr_arc (start 224.318243 113.179009) (mid 224.212761 113.777302) (end 223.715107 114.125743)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 6ac3e46f-9ffd-4deb-8635-39087e95de5a))
+  (gr_arc (start 204.557391 117.559833) (mid 204.451898 118.158121) (end 203.954255 118.506567)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 6c3643d2-83f1-496b-8875-6f22ba3e2af5))
+  (gr_line (start 99.293323 39.742748) (end 116.341892 43.522325)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 7207fa5a-2db0-43f7-ac68-6f2f8b370f5a))
+  (gr_line (start 242.832622 105.009361) (end 259.881191 101.229784)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 723a3cf5-c044-4e41-93d7-19fae2f725dd))
+  (gr_arc (start 259.881191 101.229784) (mid 260.479486 101.335266) (end 260.827925 101.83292)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 73960382-2395-4bb3-b25b-455dd638aa7a))
+  (gr_line (start 104.877083 100.737694) (end 105.26455 100.823593)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 74fd48c5-7072-4c2e-bd62-3d4762706456))
+  (gr_arc (start 108.356931 86.874764) (mid 108.6058 87.048975) (end 108.658499 87.348131)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 7544ffae-47cc-4b5e-8efc-8ba23658c99e))
+  (gr_arc (start 183.513576 105.151676) (mid 183.619095 104.553427) (end 184.116712 104.204942)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 75a26a75-485d-43cd-875a-4206dea73ebe))
+  (gr_arc (start 262.674127 25.812593) (mid 263.272419 25.918091) (end 263.620861 26.415729)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 763cc85b-7480-4acb-a240-bf2abce511d3))
+  (gr_arc (start 188.148752 47.212551) (mid 188.747017 47.318063) (end 189.095486 47.815687)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 787f7c1c-4c5e-46de-ab16-78b4bae3fafc))
+  (gr_arc (start 100.967726 116.53801) (mid 100.619276 117.035654) (end 100.020992 117.141146)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 7c585554-686c-4f09-b5db-c83a9a2b3cdd))
+  (gr_line (start 242.401285 106.73103) (end 242.229486 105.956095)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 7d64d106-122e-46bf-aea6-a6d5c471a02f))
+  (gr_arc (start 100.967737 116.537961) (mid 101.141957 116.289117) (end 101.441104 116.236393)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 80c026e0-a62a-43ad-9a32-a73d2d13bc98))
+  (gr_line (start 62.008706 28.22486) (end 62.180505 27.449925)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 88b74a51-69b8-41c5-8c79-c0570616d85e))
+  (gr_arc (start 118.409023 47.435261) (mid 118.757471 46.937623) (end 119.355757 46.832125)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 88cfa4ab-7049-4431-99c2-f6bced5be1d6))
+  (gr_arc (start 99.293323 39.742748) (mid 98.795692 39.394279) (end 98.690187 38.796014)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 88f1ff16-32ba-433b-8bde-406fb3e1255b))
+  (gr_arc (start 105.737917 100.522025) (mid 105.563692 100.770868) (end 105.26455 100.823593)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8963130c-e266-4853-82b7-2a91fad4fa54))
+  (gr_line (start 224.74958 111.45734) (end 241.798149 107.677764)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8b26e52e-c733-4107-a10f-7ac0af0bc5da))
+  (gr_arc (start 117.592044 47.051513) (mid 117.417819 47.300327) (end 117.118677 47.353081)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8c0ede28-0e73-48c5-bcdb-2c4f6062024a))
+  (gr_arc (start 62.008706 28.22486) (mid 61.660248 28.722514) (end 61.061972 28.827996)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8c14db6d-2dcf-4eec-b01c-5e28cf43b3b7))
+  (gr_arc (start 207.997343 39.560188) (mid 207.891871 40.158494) (end 207.394207 40.506922)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8cad0a72-3452-4c4c-bb05-090eec9ca3fa))
+  (gr_arc (start 45.687806 101.843681) (mid 45.339361 102.341333) (end 44.741072 102.446817)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8ebf3f8d-543e-450d-aa8a-7464b84c12b2))
+  (gr_line (start 198.718066 87.553039) (end 198.330599 87.638938)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8ee76700-8477-4e3f-9d91-b0d994cd49bd))
+  (gr_arc (start 189.568853 48.117255) (mid 189.269695 48.064529) (end 189.095486 47.815687)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8ef2a509-68ea-430c-915b-156b66fa7d4e))
+  (gr_arc (start 81.210281 33.294769) (mid 80.712593 32.94633) (end 80.607145 32.348035)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8f684ae9-e621-4496-a4f7-689cbb33f62c))
+  (gr_line (start 197.425895 89.059039) (end 167.978402 95.587442)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 8fc555d5-d8ba-47cd-b906-0e3587092fac))
+  (gr_line (start 260.827925 101.83292) (end 260.999724 102.607855)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 91582526-1fce-47bb-b541-0de4a2326c9b))
+  (gr_arc (start 64.889381 106.91359) (mid 64.391733 106.565149) (end 64.286245 105.966856)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 92ba482a-5c6b-4f76-9dcd-2aa93cce7e1e))
+  (gr_line (start 226.080385 33.112209) (end 225.908586 32.337274)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 935cbf3b-5df7-456a-9c45-5a1d9576f7e1))
+  (gr_arc (start 189.664716 46.83212) (mid 190.26303 46.937568) (end 190.61145 47.435256)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 936c0774-6ae6-49f5-9220-af90c410711f))
+  (gr_arc (start 198.029031 88.112305) (mid 197.92355 88.710598) (end 197.425895 89.059039)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 96ca6033-c28f-45c1-aafa-286e171112a8))
+  (gr_arc (start 109.261635 88.294865) (mid 108.764039 87.946396) (end 108.658499 87.348131)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 97a24053-9da2-49d4-9d29-6d4e46e91ba7))
+  (gr_line (start 205.246426 117.000567) (end 204.858959 117.086466)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 97e04a20-1b4c-4329-90a2-d270f8980357))
+  (gr_line (start 203.954255 118.506567) (end 188.068088 122.028446)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 99cf9e6f-5486-4754-aab5-ab31f14197c6))
+  (gr_arc (start 242.229486 105.956095) (mid 242.334948 105.357796) (end 242.832622 105.009361)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 9bf341de-1478-47a5-978d-174102b6317d))
+  (gr_line (start 190.257888 47.557989) (end 189.742491 45.233184)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 9c18c936-37a2-42dd-a2d5-91bc7855e779))
+  (gr_line (start 190.345638 44.286499) (end 207.394207 40.506922)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp 9c45dc0f-c1ee-431b-a5b0-a0bd2c8717f2))
+  (gr_arc (start 45.859605 101.068746) (mid 46.208036 100.571046) (end 46.806339 100.46561)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp a0238c77-d633-4c1f-a06f-e84d4a2c26aa))
+  (gr_line (start 245.625558 29.59217) (end 262.674127 25.812593)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp a049c58e-5cd5-4498-9715-c35f0ab738d3))
+  (gr_arc (start 122.570818 103.440768) (mid 123.068408 103.789243) (end 123.173954 104.387502)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp a2604bf2-793b-4cf4-8334-edd8ca5cc9f4))
+  (gr_line (start 139.526143 95.206973) (end 110.078613 88.678612)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp a5afe5ae-bf38-4ee3-9718-a0a3f8ce154d))
+  (gr_arc (start 198.029031 88.112305) (mid 198.081789 87.813177) (end 198.330599 87.638938)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp a9855f91-3bee-4ee0-9f49-7dbff427a559))
+  (gr_line (start 116.945039 44.46901) (end 116.429642 46.793815)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp ab597a6c-e28e-469b-8294-e888b5166a2e))
+  (gr_line (start 190.61145 47.435256) (end 199.544996 87.731874)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp ac5390b7-6eaa-4178-a9cc-c70ffb9716c0))
+  (gr_arc (start 279.598163 98.48468) (mid 279.492648 99.082954) (end 278.995027 99.431414)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp aca291e4-2082-4107-93ef-f2c2cbb5fdf7))
+  (gr_line (start 189.568853 48.117255) (end 189.95632 48.031356)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp aff71cae-0075-4624-b090-80d90173d57a))
+  (gr_line (start 118.538778 46.448377) (end 147.986271 52.976781)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp b0bfe3fd-5071-47f5-b175-03af7d864ddf))
+  (gr_line (start 138.709128 94.823268) (end 109.261635 88.294865)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp b39aeaf5-7f8e-472f-a6c3-22bc8fdba1c8))
+  (gr_arc (start 117.592044 47.051513) (mid 117.9405 46.553864) (end 118.538778 46.448377)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp b400e098-e5f6-4991-ac68-34f7c27401d9))
+  (gr_line (start 64.889381 106.91359) (end 81.93795 110.693166)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp b4ca6867-3272-49cb-9489-6794b5b93ec8))
+  (gr_line (start 206.666538 117.90532) (end 223.715107 114.125743)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp b7f61abc-129d-4418-bbd7-fdda9aa9ed63))
+  (gr_arc (start 199.544996 87.731874) (mid 199.43953 88.330179) (end 198.94186 88.678608)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp ba40cdad-7a86-4c4d-b3d1-53aa9c3e6f6a))
+  (gr_line (start 64.458044 105.191921) (end 64.286245 105.966856)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp c0459cf1-7b9f-4b9b-b5c9-c08ab19852d4))
+  (gr_line (start 43.066669 25.651555) (end 27.089367 97.720506)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp c4f1b095-e5b2-4b21-90ee-db0e71bf6c50))
+  (gr_arc (start 116.73121 47.267182) (mid 116.482335 47.092975) (end 116.429642 46.793815)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp ca9ee6ec-3270-472e-809b-1679a2fddacc))
+  (gr_arc (start 243.560291 27.610963) (mid 244.15857 27.716447) (end 244.507025 28.214099)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp ccd69a44-f5d6-4a58-a24e-48d4ec439870))
+  (gr_line (start 119.355757 46.832125) (end 148.803287 53.360485)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp cdcabb53-c236-4dca-8108-b35256047510))
+  (gr_line (start 108.356931 86.874764) (end 107.969464 86.788865)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp cedee755-5774-4486-a8df-a28ee09de7a1))
+  (gr_arc (start 82.972423 113.361569) (mid 82.474832 113.013098) (end 82.369287 112.414835)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp d2c51216-dc81-4369-a59b-9d0c49eba9fa))
+  (gr_arc (start 104.877083 100.737694) (mid 104.628219 100.563482) (end 104.575515 100.264327)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp d2f254ab-b74f-480d-9f79-23ae16a80ca9))
+  (gr_line (start 261.946458 103.210991) (end 278.995027 99.431414)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp d4314e58-a329-43c3-b601-ea1e161d8e31))
+  (gr_line (start 82.541086 111.6399) (end 82.369287 112.414835)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp d7f7cf10-1a07-461f-9448-9de1015b8f1c))
+  (gr_line (start 201.42298 101.587767) (end 201.810447 101.501868)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp da1bd31b-6897-47b7-a603-581d4b27966f))
+  (gr_arc (start 43.066669 25.651555) (mid 43.415117 25.153893) (end 44.013403 25.048419)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp db135d8d-8ac8-4ae1-bced-d1aafbac163a))
+  (gr_arc (start 102.733275 117.742393) (mid 102.235629 117.39395) (end 102.130139 116.795659)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp dccb3854-169f-4265-a238-d18c385d4bb0))
+  (gr_arc (start 27.692503 98.66724) (mid 27.194878 98.318784) (end 27.089367 97.720506)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp de8aba59-aa58-4a1a-b973-8df145a54c78))
+  (gr_line (start 224.318243 113.179009) (end 224.146444 112.404074)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp eb4fc492-82b5-4a5a-bc85-44a5211c2c28))
+  (gr_line (start 118.619442 121.264272) (end 102.733275 117.742393)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f0842207-aacf-49f1-b540-b7a733d3e77b))
+  (gr_line (start 207.997343 39.560188) (end 207.825544 38.785253)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f0abfe05-ec10-4014-b8a9-0bda5f482a28))
+  (gr_arc (start 167.978402 95.587442) (mid 167.38011 95.481947) (end 167.031668 94.984306)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f0c58390-c9f1-43a7-87fb-63560708e03e))
+  (gr_line (start 106.684651 99.918889) (end 122.570818 103.440768)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f238caaf-4cec-4a9a-be6c-12a9a977cb67))
+  (gr_arc (start 81.93795 110.693166) (mid 82.435594 111.041609) (end 82.541086 111.6399)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f283bc34-eabb-4c68-8406-82ec0048d5f6))
+  (gr_line (start 63.127239 26.846789) (end 80.175808 30.626366)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f41a0440-ebba-47d1-81a0-233f55934915))
+  (gr_arc (start 80.175808 30.626366) (mid 80.673466 30.974818) (end 80.778944 31.5731)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f52adb85-01dd-4d83-bb6f-ec644bd2a250))
+  (gr_arc (start 206.666538 117.90532) (mid 206.068249 117.79984) (end 205.719804 117.302184)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f7c38a3c-b134-4db7-a489-24fa3f25b98c))
+  (gr_arc (start 107.496097 87.090433) (mid 107.670324 86.841636) (end 107.969464 86.788865)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f7cd181f-d176-43e5-acf5-0167a43e21e6))
+  (gr_arc (start 245.625558 29.59217) (mid 245.027267 29.486699) (end 244.678824 28.989034)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp fc61071e-9a64-40d7-a37f-3dfca87144d5))
+  (gr_arc (start 158.098123 54.687689) (mid 158.203634 54.089422) (end 158.701259 53.740955)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp ff2fd66d-609b-4d87-87da-e6096c660e18))
+  (gr_line (start 104.575515 100.264327) (end 107.496097 87.090433)
+    (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp fffa42bf-723e-4aae-9a4d-4a7f8342b1e9))
+  (gr_line (start 194.43876 114.117705) (end 204.426647 112.228652)
+    (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 194b0acf-06fd-4123-9881-214bb2b66b37))
+  (gr_line (start 209.45495 111.439113) (end 204.426647 112.228652)
+    (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp d9f6c32a-5f5e-4729-a24e-1fe30b301a43))
+  (gr_line (start 102.260883 111.464478) (end 97.23258 110.674939)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp fb5f3238-cc5c-4d63-a578-7e9b56385b48))
+  (gr_line (start 102.260883 111.464478) (end 112.24877 113.353531)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp fcd68fea-a7f1-4000-8a89-d00a55ea2ef4))
+  (gr_arc (start 190.257898 47.558039) (mid 190.20515 47.857197) (end 189.956331 48.031405)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 393ad254-e1cf-435e-bd11-8084a628502e))
+  (gr_arc (start 198.029042 88.112354) (mid 197.923585 88.71066) (end 197.425907 89.059089)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 3f9f711a-0880-4d1e-98cc-df43428b9aa8))
+  (gr_circle (center 169.379716 67.183091) (end 168.217314 67.440789)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "B.Fab") (tstamp 44920951-b185-458e-b6b7-a621429b9ca2))
+  (gr_line (start 197.425906 89.059088) (end 167.59091 95.673347)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 46fdcb2c-26a2-485b-aaa6-10780aaa899a))
+  (gr_line (start 158.313767 53.82686) (end 188.148763 47.2126)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 4bd7b46f-d19c-43c0-ac76-97045f1a79aa))
+  (gr_arc (start 157.710631 54.773593) (mid 157.81614 54.175325) (end 158.313766 53.826859)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 4bd95eb1-689c-43ad-8b3c-4cde96a7988b))
+  (gr_circle (center 168.638261 67.391901) (end 167.475858 67.649599)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "B.Fab") (tstamp 4bf311d8-7692-4711-b34c-adf6ab9e20d1))
+  (gr_arc (start 198.718077 87.553087) (mid 199.017192 87.605864) (end 199.191445 87.854654)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 4d27eae3-bca4-4621-ae2c-1f68727ffcf7))
+  (gr_arc (start 188.148763 47.2126) (mid 188.747031 47.318116) (end 189.095497 47.815735)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 5e547830-8663-45e0-a4fa-65fb91fb9a92))
+  (gr_arc (start 167.59091 95.673347) (mid 166.992633 95.567854) (end 166.644175 95.070212)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 83b86e8c-9c93-459d-a398-951d12e5e0e6))
+  (gr_arc (start 189.568863 48.117304) (mid 189.26971 48.064582) (end 189.095496 47.815737)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 86147075-649d-49c3-aa6b-15359d7ad96e))
+  (gr_circle (center 174.049917 91.802303) (end 172.887514 92.060001)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "B.Fab") (tstamp 86e0bd8d-c214-4211-8a64-0eb882930e4e))
+  (gr_line (start 157.710631 54.773593) (end 166.644176 95.070211)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 8cbab149-03ce-41a1-a452-e7249f900cf5))
+  (gr_arc (start 256.359059 85.343623) (mid 257.590817 85.496873) (end 258.497232 86.344875)
+    (stroke (width 0.05) (type solid)) (layer "B.Fab") (tstamp 9718b451-59eb-4b3b-9518-9eb8d904d8b0))
+  (gr_arc (start 198.029042 88.112353) (mid 198.081824 87.813238) (end 198.33061 87.638987)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp 9f7a911a-bed1-4e8d-af4b-05f9f22ab04e))
+  (gr_circle (center 174.791372 91.593493) (end 173.62897 91.851192)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "B.Fab") (tstamp c89e680f-30a0-4912-b47b-64d0933ded0a))
+  (gr_line (start 198.718077 87.553087) (end 198.33061 87.638987)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp d73e78f3-fbc5-46e2-b046-487a387d757a))
+  (gr_line (start 189.568863 48.117304) (end 189.956331 48.031405)
+    (stroke (width 0.15) (type solid)) (layer "B.Fab") (tstamp f0809b12-e2c9-43d9-bc8c-bf1e890b103e))
+  (gr_line (start 116.731199 47.267231) (end 117.118667 47.35313)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 0205efa5-ad07-4b88-9973-72aeb8bdd758))
+  (gr_arc (start 148.373764 53.062685) (mid 148.87144 53.411129) (end 148.976899 54.009419)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 0d0ef065-381e-42ce-b715-c3ce3f2d77a5))
+  (gr_circle (center 132.637613 91.038129) (end 133.800016 91.295827)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 155d24fa-8c8f-4538-9b37-937866bf437f))
+  (gr_line (start 140.043354 94.306037) (end 148.976899 54.009419)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 368f0f49-9689-42e5-89ac-7cf922f6493c))
+  (gr_arc (start 140.043355 94.306038) (mid 139.694899 94.80368) (end 139.09662 94.909173)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 37e90b55-941e-4483-8e7c-e6512f83f05c))
+  (gr_arc (start 108.35692 86.874813) (mid 108.60576 87.04904) (end 108.658488 87.348179)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 644958fb-6bbb-48e8-a779-1f1461a5b769))
+  (gr_arc (start 117.592034 47.051563) (mid 117.417802 47.300391) (end 117.118667 47.35313)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 958a81c1-d4f2-4bff-83da-7485ea29e02b))
+  (gr_arc (start 107.496085 87.09048) (mid 107.670321 86.841659) (end 107.969453 86.788913)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 9956f698-d098-41d2-b69b-d5d80db05cb1))
+  (gr_arc (start 116.731199 47.267231) (mid 116.482357 47.093021) (end 116.429632 46.793865)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 9f519228-545c-4c03-bb8e-4b05c217d06d))
+  (gr_circle (center 138.049269 66.627727) (end 139.211672 66.885425)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp a9e366a0-bf63-4ca5-8cb4-d30191693d03))
+  (gr_line (start 139.09662 94.909173) (end 109.261624 88.294914)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp ab94bd72-b375-4e72-9433-21934f05a8fb))
+  (gr_arc (start 48.190298 85.580701) (mid 49.09671 84.732671) (end 50.328471 84.579449)
+    (stroke (width 0.05) (type solid)) (layer "F.Fab") (tstamp bc3af23b-534a-48b3-8144-27b4afb19caa))
+  (gr_line (start 108.35692 86.874813) (end 107.969453 86.788913)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp d5e7c5bb-bbb0-4026-a826-0bfc50d0ae3e))
+  (gr_arc (start 117.592033 47.051561) (mid 117.940482 46.553928) (end 118.538767 46.448426)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp dd7272f5-7e10-469c-8977-4ceb5040927a))
+  (gr_circle (center 134.229101 91.593498) (end 135.391503 91.851196)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp e5515095-7a1f-491b-9514-1e7ea58bca6e))
+  (gr_circle (center 139.640757 67.183096) (end 140.803159 67.440794)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp e6d4b86b-eccf-439e-a5a6-1ebf05a6fd6f))
+  (gr_line (start 118.538767 46.448426) (end 148.373763 53.062686)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp f4355d72-79ec-4d06-8f1c-a63907f70ec8))
+  (gr_arc (start 109.261623 88.294915) (mid 108.76407 87.946424) (end 108.658488 87.34818)
+    (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp fde671b9-ea2f-4b4e-ad82-1119661e76e1))
+  (gr_text "R" (at 240.091649 98.605 12.5) (layer "B.SilkS") (tstamp 18f4356e-1fad-49fd-a438-75396269967d)
+    (effects (font (size 2 2) (thickness 0.5)))
+  )
+  (gr_text "L" (at 66.595881 97.840826 -12.5) (layer "B.SilkS") (tstamp 277b9ebc-6721-49fb-90ae-418956818319)
+    (effects (font (size 2 2) (thickness 0.5)))
+  )
+  (gr_text "R" (at 258.354848 54.92131 12.5) (layer "B.SilkS") (tstamp bd2ff117-6892-41cf-a0fe-990b9d2a57ac)
+    (effects (font (size 2 2) (thickness 0.5)))
+  )
+  (gr_text "L" (at 48.332682 54.157136 -12.5) (layer "B.SilkS") (tstamp fcd0962e-5184-4b8d-a4d5-7943ee300a19)
+    (effects (font (size 2 2) (thickness 0.5)))
+  )
+  (gr_text "#162" (at 115.440951 88.5963) (layer "F.SilkS") (tstamp 25eb8bdd-c826-4d12-a0af-b1120d28a8ca)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "L" (at 258.354848 54.92131 12.5) (layer "F.SilkS") (tstamp 26651d98-bed8-409f-ad0a-3cb791bb8abe)
+    (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
+  )
+  (gr_text "Center Joint \nfor Pangaea RI 1.2" (at 126.775273 59.990386) (layer "F.SilkS") (tstamp 3372e7ba-cbe1-4b9e-901e-7e94d3302731)
+    (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "Split angle [degree]\n12.5 + 12.5 = 25 \n\nDistance [cm]\n1" (at 116.575273 83.090386) (layer "F.SilkS") (tstamp 4e9384d3-329c-4611-a84c-4711a446cc66)
+    (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "Feb 25, 2023" (at 122.940951 88.5963) (layer "F.SilkS") (tstamp 9555df08-9689-46e6-9ea3-74e2a270c538)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "L" (at 240.091649 98.605 12.5) (layer "F.SilkS") (tstamp b4f1b482-d3f6-440b-a0ee-acd11764ad4a)
+    (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
+  )
+  (gr_text "R" (at 48.332682 54.157136 -12.5) (layer "F.SilkS") (tstamp b9b80f90-b046-443f-993c-b78e095e795a)
+    (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
+  )
+  (gr_text "R" (at 66.595881 97.840826 -12.5) (layer "F.SilkS") (tstamp ba1a5901-c386-4166-828f-ff1145dc295e)
+    (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
+  )
+  (gr_text "0.25u" (at 57.112447 50.310458 -12.5) (layer "Eco1.User") (tstamp 22465365-5bfc-4a1d-addb-20c678b16525)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "0.25u" (at 249.575083 51.074632 12.5) (layer "Eco1.User") (tstamp 7693ac78-f475-405e-af8b-be458d049732)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (group "" (id 475a3ad3-5e81-4380-8886-669d453b879a)
+    (members
+      0036b2c4-d2fb-4653-8f81-0629159c20e5
+      012dd7d1-e235-4f9d-ab79-7349e27c20b2
+      0139dee8-29db-4cbb-8bb6-be7ac35cf41b
+      0205efa5-ad07-4b88-9973-72aeb8bdd758
+      0385a7b7-40c4-4e99-ba77-f12ab17618b4
+      05dc355c-1573-44b6-977c-630210512d37
+      0842d6b9-7b0e-4ec2-9ceb-948293e68387
+      08634271-865c-4d45-a5ee-955e0c670668
+      09062ad0-606a-46f9-b79d-211e68dc92d4
+      0d0ef065-381e-42ce-b715-c3ce3f2d77a5
+      0d150b3a-f11a-4466-aa3b-1563a34a5ad5
+      0d46cb13-95ae-4af4-90f8-b0dcac31de4f
+      0f8719d3-35bd-47cd-b791-a66fe13c7e05
+      0f9a433f-a0f5-4ac8-85ca-76a3e43f1974
+      119d581e-d11e-400b-93cf-6dec3a347dcc
+      11e5a85b-d80d-45db-99db-629163fc7855
+      13dd0a2d-2cae-4235-a3e9-5a7b8e621f8b
+      155d24fa-8c8f-4538-9b37-937866bf437f
+      15a08ed0-bf20-42a9-870a-9ec9c37adc66
+      1609edef-24b6-4b02-a556-30717b59a88c
+      18f623cd-2fdf-46f7-9f68-4acc92ef0af0
+      1a3f3bee-8981-408e-9a58-96cfd21348f9
+      1acdd2f3-45a3-4639-9316-6d24b013e917
+      1ae1849b-8eed-46d6-a72e-1f984a241b2e
+      1c055e8a-e507-4799-9120-c959719bb636
+      1c4022b3-298b-4bb1-bf55-85cba0c5ff83
+      1d7542b9-2de3-4386-a837-599c763897d1
+      1d83e5a2-c310-410c-a6e5-3bd8d1fd0986
+      1da5829a-c3d7-4445-8463-0a02c837a301
+      1ec6c078-75ec-4656-8c3c-faf28684334f
+      20540a7f-b1d5-477b-b8a4-970f33fd2b65
+      20e180be-3413-46b6-a61c-81626f38dd8b
+      21c5fdc6-e923-4802-8b81-4a81a3ec0f20
+      22465365-5bfc-4a1d-addb-20c678b16525
+      229ef4e2-1c00-49ea-8375-35ee6368d00e
+      257517a7-cb83-47ff-91f7-5188b7f045ac
+      277b9ebc-6721-49fb-90ae-418956818319
+      277c5d96-0eb7-4f4c-bdbc-73146334cf16
+      2a1d4186-dec0-4ae1-8cd9-7f99a3c44da9
+      2a4058a4-e100-4fb1-a02c-86fb19c10bc0
+      2bb7aa10-94f1-4939-b01e-bbcb604d1d71
+      310e4622-c49a-40ff-8904-a4636fa2374e
+      320cc628-eabc-4c55-adfd-5e6748a5eec0
+      32a3bbdd-98f3-43a3-849a-0690c008930f
+      32afd029-cd79-4ca8-9fff-96a068958aff
+      368f0f49-9689-42e5-89ac-7cf922f6493c
+      37e90b55-941e-4483-8e7c-e6512f83f05c
+      38484f74-4fef-4194-a115-68446c578c25
+      3add97b6-1f8c-4cd3-b570-e276d95537f3
+      3b273d2f-cb1d-4e33-8e8d-a2074bcc290c
+      3c81f4bb-4c85-4545-9c85-ab398a371525
+      4432c827-df84-4ede-ad03-d7b0e70a4d58
+      45da8d45-e3dc-4cff-a964-5342eb3a0f5f
+      4638b9c7-2a82-43c0-8849-0705789298e9
+      4668cafc-a3d6-4b07-a2c6-de90a099d7bf
+      4b30662f-a21f-4a6d-bb23-75a41a470982
+      4d687ee5-6c34-4174-90dd-47c3d993544a
+      4ffe1684-6e75-4ba8-98f7-104ac82efd47
+      506a83f3-e35b-4e71-a8a3-c5df1cc3f388
+      51f90e02-18ea-428e-b498-831ffc96ad24
+      5368e5ee-02ae-4c3c-b4a0-b5a84ba186fd
+      546d77b9-9d45-4836-adde-eab5fd0681b0
+      54ee1d97-ad9e-4e2f-8fb1-285ba52830d4
+      558a73a6-6468-4f45-8cae-c5d1b1156bed
+      5597cad0-05ca-449a-a6fe-956242368ba6
+      591c3c1e-239e-4934-b271-087b75ab790e
+      5a3cce7e-e4a3-4e4f-b462-02d1a69d8add
+      5a6b3196-7515-40da-8f45-3e5341d8c322
+      5a8dc568-54a3-4ac3-ad55-b3315bcdd976
+      5af5eb09-ef8f-42b5-9f12-244f7f785833
+      5b484d89-7599-4572-80d1-12bd47742d00
+      5c0bb09d-f698-4123-b1b6-b3fb38a33b40
+      5c69ddf2-f376-4787-84e3-9649529d53ab
+      5e023d3a-cc9d-44db-a817-0df7a7ae31f8
+      5f4e3259-88df-4cbe-9ac0-0534fefb58a2
+      61088709-3cca-49f0-b099-47a75605c810
+      6287820e-96ef-4535-998f-26476c363a71
+      64084548-4745-4e4e-9eac-4bde87399148
+      644958fb-6bbb-48e8-a779-1f1461a5b769
+      7207fa5a-2db0-43f7-ac68-6f2f8b370f5a
+      722fd493-d554-473a-9ac1-b5986848a8a2
+      74cd2dc5-a9e8-47d6-aed8-e1837e0795cf
+      74fd48c5-7072-4c2e-bd62-3d4762706456
+      7544ffae-47cc-4b5e-8efc-8ba23658c99e
+      757ddf4c-2a3b-4ba5-bc35-000d92100079
+      7bbd74f3-87f8-4650-9975-eade1adaf43e
+      7c585554-686c-4f09-b5db-c83a9a2b3cdd
+      80c026e0-a62a-43ad-9a32-a73d2d13bc98
+      818b3239-6a49-4374-a647-3efa972fe76a
+      84b8306f-8f2e-4826-b741-f952ba442245
+      88b74a51-69b8-41c5-8c79-c0570616d85e
+      88f1ff16-32ba-433b-8bde-406fb3e1255b
+      892ae2f4-8609-4aa7-a9ce-c2b3109ad9a2
+      8963130c-e266-4853-82b7-2a91fad4fa54
+      8ac962de-7d03-4aae-981b-dad69100bb16
+      8c0ede28-0e73-48c5-bcdb-2c4f6062024a
+      8c14db6d-2dcf-4eec-b01c-5e28cf43b3b7
+      8ebf3f8d-543e-450d-aa8a-7464b84c12b2
+      8f684ae9-e621-4496-a4f7-689cbb33f62c
+      91c087a5-2bf7-4934-b3b5-2251c4a43ae9
+      92ba482a-5c6b-4f76-9dcd-2aa93cce7e1e
+      958a81c1-d4f2-4bff-83da-7485ea29e02b
+      9753b78e-5974-48fa-8bd8-3587da9201c4
+      97a24053-9da2-49d4-9d29-6d4e46e91ba7
+      9825a2af-2dce-4244-b952-f695e1651e11
+      9956f698-d098-41d2-b69b-d5d80db05cb1
+      99ae339e-5d55-4a65-8bd8-5b186fa480bc
+      9f519228-545c-4c03-bb8e-4b05c217d06d
+      9fb5c3a1-4405-4a82-9301-8895af4cdacc
+      a0238c77-d633-4c1f-a06f-e84d4a2c26aa
+      a2604bf2-793b-4cf4-8334-edd8ca5cc9f4
+      a4657a36-5b04-482c-960c-23601567aa4d
+      a5bc6675-c0ba-4d2b-a634-02ce762ed524
+      a9e366a0-bf63-4ca5-8cb4-d30191693d03
+      aafd707d-f248-4c1f-b68c-423211d25ee8
+      ab597a6c-e28e-469b-8294-e888b5166a2e
+      ab94bd72-b375-4e72-9433-21934f05a8fb
+      aba274cc-4408-47ac-8f30-01cb4f55b431
+      ac10a8af-937c-4ece-aa26-74e2467211dd
+      b0bfe3fd-5071-47f5-b175-03af7d864ddf
+      b1edf9d2-8b84-4520-8814-e39ce8adfe71
+      b39aeaf5-7f8e-472f-a6c3-22bc8fdba1c8
+      b400e098-e5f6-4991-ac68-34f7c27401d9
+      b4ca6867-3272-49cb-9489-6794b5b93ec8
+      b5b959c5-bbd0-47b4-9eac-295e3e8eceeb
+      b63666fd-16f3-4278-bfd2-bfbed34512a0
+      b835a8dd-1a55-4537-aafd-ba4c093c6ef2
+      b9b80f90-b046-443f-993c-b78e095e795a
+      ba1a5901-c386-4166-828f-ff1145dc295e
+      baf070c1-37be-4a86-924e-2ed177f60a05
+      bbd10a35-4b75-4c0f-b7e0-c270be703110
+      bc3af23b-534a-48b3-8144-27b4afb19caa
+      bd35f0e1-32c3-4f15-8282-48ecd184e9d8
+      c0459cf1-7b9f-4b9b-b5c9-c08ab19852d4
+      c2a14a74-b4fd-416c-a598-e5c2d2980ee0
+      c371695a-46bc-47b0-8f0c-55295ede085f
+      c4f1b095-e5b2-4b21-90ee-db0e71bf6c50
+      c4f8e998-6897-43c5-b170-cf397fc54223
+      c5072d48-fcb0-46ce-aaf0-e2002d7baf9c
+      c5b324d9-dd50-40b3-b121-fad8e10e8717
+      c79a8394-04e1-4254-98f1-5f402c847246
+      c7e71b56-cda0-407d-b829-b122275842c7
+      c99e72da-e0b9-4257-a3df-7abbc3efbda1
+      ca9ee6ec-3270-472e-809b-1679a2fddacc
+      cedee755-5774-4486-a8df-a28ee09de7a1
+      d01a681e-8922-4abc-96dc-092e0b9e13eb
+      d2c51216-dc81-4369-a59b-9d0c49eba9fa
+      d2f254ab-b74f-480d-9f79-23ae16a80ca9
+      d5b72045-5d85-4054-87cc-26a16cb227cb
+      d5e7c5bb-bbb0-4026-a826-0bfc50d0ae3e
+      d6c485ef-6e1c-4d0f-9b01-020857a90adb
+      d7a8af73-2c2d-4533-89c6-4e84c2190ca7
+      d7f7cf10-1a07-461f-9448-9de1015b8f1c
+      da6daf23-75e6-417a-965f-788fa93e2a6f
+      db135d8d-8ac8-4ae1-bced-d1aafbac163a
+      dccb3854-169f-4265-a238-d18c385d4bb0
+      dd7272f5-7e10-469c-8977-4ceb5040927a
+      de8aba59-aa58-4a1a-b973-8df145a54c78
+      debae16a-3bff-43d6-b84b-c47b956acc35
+      dfb75141-fb63-4b23-90f6-8e95e2d76364
+      e02f3b1e-431f-45be-a163-907686d4fc87
+      e2d654b2-2651-4cb1-b87f-2c99d9af7616
+      e87df0c7-0b57-4216-9dd2-2c53ad7db6bc
+      ea608fed-5b12-48f0-94b8-3b20205165fe
+      ee67ece2-24cc-4de1-b71b-fc8cfc172990
+      ef56fa17-c312-4f5d-b7e2-3180b8322297
+      f066d6b6-88ab-479a-b1e9-79c42ea59cbc
+      f0842207-aacf-49f1-b540-b7a733d3e77b
+      f0c14baf-2680-46a2-89e4-2b979a3d039c
+      f238caaf-4cec-4a9a-be6c-12a9a977cb67
+      f283bc34-eabb-4c68-8406-82ec0048d5f6
+      f2bac464-dea3-4ef0-9982-f6682a533203
+      f41a0440-ebba-47d1-81a0-233f55934915
+      f4355d72-79ec-4d06-8f1c-a63907f70ec8
+      f4dc30d4-fb56-485d-b881-2a73fb1f0063
+      f52adb85-01dd-4d83-bb6f-ec644bd2a250
+      f74923dc-548d-4af5-bc2b-273630b2fbab
+      f7cd181f-d176-43e5-acf5-0167a43e21e6
+      f9990d84-8c65-4ca4-ade7-af610d226faf
+      fa250de4-a8be-49e9-9909-4cdc0b210206
+      fb5f3238-cc5c-4d63-a578-7e9b56385b48
+      fcd0962e-5184-4b8d-a4d5-7943ee300a19
+      fcd68fea-a7f1-4000-8a89-d00a55ea2ef4
+      fde671b9-ea2f-4b4e-ad82-1119661e76e1
+      ff84cde2-af48-4afb-9cc2-6c80d2c567e7
+      fffa42bf-723e-4aae-9a4d-4a7f8342b1e9
+    )
+  )
+  (group "" (id fd20302c-6a85-4d34-811f-57e01d1acb82)
+    (members
+      0f3c0840-7185-4345-85c5-e37c35fa8c9d
+      0fb30f3e-ee5e-4b63-8da9-6ff05b3fa50a
+      81583c7f-67e0-47fd-9de4-ce51e3616c24
+      cbc3f9e8-4bb9-4119-9288-7d395be2c749
+      e5515095-7a1f-491b-9514-1e7ea58bca6e
+      e6d4b86b-eccf-439e-a5a6-1ebf05a6fd6f
+    )
+  )
+  (group "" (id b161270e-3db3-4b21-891c-4d66c184d9f8)
+    (members
+      017a72ba-88b9-4041-a483-d666d234d9b3
+      03f9c6ac-4a4a-4451-ad94-123da09868d1
+      048201f2-a580-4289-b24d-7373034cc6e3
+      04eee0a5-6d82-4944-bee9-d12eaa613836
+      0638154c-d1a3-41c0-891b-e0354fdc2ae6
+      09d4eccd-79bb-4d2e-9939-26d1d310e4e3
+      0c22b6b0-e020-4117-845b-ee1fcacc1582
+      0cb6a5f3-2fbb-483f-9c60-6a1e7bd0f06f
+      107af52f-d2d4-4387-ba1e-9cdc857e3842
+      140649fe-849a-400b-a381-d4d3a74e507f
+      1499d391-5f7e-473d-824e-b72584ab1234
+      1848df08-f55f-4bce-8e69-8ca834be9ec4
+      186b56b3-3862-45fc-b886-0736b32ad228
+      18f4356e-1fad-49fd-a438-75396269967d
+      194b0acf-06fd-4123-9881-214bb2b66b37
+      19b7bac7-a50c-4b4d-956b-f7c501ec6e5d
+      19c9bf17-626c-4b0c-8afc-911eafa2bc25
+      1a3e4f34-a85a-4f15-955e-04f0450d97c5
+      1b1cd525-bf4e-4b2a-b007-6bfb3bcc2346
+      1c030258-6a9a-4064-af0b-c63ba275c286
+      1d08e673-a097-48c2-afc5-02f4afedc4b6
+      21ac37a4-c0ac-4e7c-8f2c-faca24641052
+      24861797-7f0d-4c3b-9b64-1f61bde21a2c
+      24ee93d2-d0e3-41d0-9100-2ea7653942cc
+      25b862a9-2e12-4e08-b336-35cb85e418a0
+      25f3e936-f9db-4fe9-ba1f-0120d35d6a29
+      26201ea9-c3ae-48f0-81a7-8fd60aaceec6
+      26651d98-bed8-409f-ad0a-3cb791bb8abe
+      26b1d6b7-e798-4d0f-820f-85babbeb9faf
+      287e6f27-1b7e-485a-8e96-66d944b46926
+      2b0e8a67-10f5-4ba8-963e-1402978a5f23
+      2cd830a4-1f50-4cfd-87ed-b594ca17c8cf
+      2d65e5ff-6d24-4976-ab26-b8b3a3239a2c
+      2ebcf28d-bebd-4b0e-a78f-01289aab4450
+      306b8efe-1cb8-414c-85d8-66198aab40ec
+      30d02e10-1734-4a0a-b020-2a0e62bab2fe
+      31421ad6-be41-4e0e-a023-769c07819726
+      32e7546d-9a4e-46ed-8de5-ef5faa3e5a88
+      34415fed-ade7-46fa-8b82-51d7c37608f7
+      350c237f-1ff4-450e-a35e-365e27e23ac5
+      393ad254-e1cf-435e-bd11-8084a628502e
+      398b2678-5e6d-4dce-bcbd-4994ffc02752
+      3bc2c64d-9ed6-487a-a0e3-f9934aa093c3
+      3f55a925-28ef-4d87-96c6-8d38a33f81d3
+      3f9f711a-0880-4d1e-98cc-df43428b9aa8
+      3fe587dd-02b0-451c-a924-8eae296b41ce
+      413f26dc-1ca7-4062-b34e-35e1a5b9787f
+      420f83f7-972a-44ed-8d0f-f270e5116409
+      46fdcb2c-26a2-485b-aaa6-10780aaa899a
+      4969c0d0-1393-4e7b-9b82-07529839f917
+      4aaa3396-4285-46f9-9a52-abed42986525
+      4bba7d97-e57f-41a7-aecc-21f4d1c91839
+      4bd7b46f-d19c-43c0-ac76-97045f1a79aa
+      4bd95eb1-689c-43ad-8b3c-4cde96a7988b
+      4bf311d8-7692-4711-b34c-adf6ab9e20d1
+      4c601059-4abb-435a-bfe2-dc9c3de7c9e6
+      4c8fb085-9e0a-4000-ad5a-8f916268c4c0
+      4c91ba04-0187-4309-994a-7281d5627bfb
+      4cdc7c70-8d78-4a86-b277-ba33d725ea64
+      4d27eae3-bca4-4621-ae2c-1f68727ffcf7
+      53558bdb-6d26-429a-be4e-597eb59365e3
+      550feda4-0ead-4aaf-8efe-4a823cf5f039
+      560395b4-ad76-4257-a337-9ba732be12a6
+      56f85799-b526-41de-9423-4dde70590471
+      5b6b0d2c-0246-4d77-b8a2-8b31518f33ea
+      5db3710a-9335-4a71-ba4e-a780a3740c24
+      5e547830-8663-45e0-a4fa-65fb91fb9a92
+      5fa91cc3-9eaf-495f-a95b-31ba59086fcd
+      6132465d-c222-407b-a8b3-01acc3749ed1
+      613928a7-571d-4367-9e5a-b2faaf22f3d1
+      64248280-ff01-48e3-b616-ffb41c2235da
+      64ebfa50-9423-425d-b657-91354648c7b9
+      6556fd72-d253-4bcf-beae-4d17ecc1b6a5
+      65758518-6dd4-4725-93fc-e631e151926b
+      66ac2d1d-200f-4520-96f0-3a53ab17d856
+      6ac3e46f-9ffd-4deb-8635-39087e95de5a
+      6c3643d2-83f1-496b-8875-6f22ba3e2af5
+      6cb0f7fa-f823-4e41-bb14-232e9eda709d
+      6eb5d7f9-5815-4632-b574-5a614c2e39f0
+      6f322255-6b52-4d48-8822-1a2ceee7d812
+      6f721814-114d-47a5-9f82-a6e9e8863481
+      6f8e333f-0789-43ed-808f-27ad3a982766
+      7079201a-f4d3-46ff-9b67-8e14fc858195
+      723a3cf5-c044-4e41-93d7-19fae2f725dd
+      73751ba1-4370-42c2-ae44-6ef17c57c3e1
+      73960382-2395-4bb3-b25b-455dd638aa7a
+      75a26a75-485d-43cd-875a-4206dea73ebe
+      763cc85b-7480-4acb-a240-bf2abce511d3
+      765c5c29-df58-492e-ba98-ad2baa2699ff
+      7693ac78-f475-405e-af8b-be458d049732
+      769d9dd8-5874-4ebc-b690-093ac6146d52
+      787f7c1c-4c5e-46de-ab16-78b4bae3fafc
+      7a4217f1-d6bb-48f3-ada5-d6207d940117
+      7b5c40b3-40e2-485d-b605-6915a677bcd3
+      7c83f854-fc90-4cf7-bab8-3333c96c6aef
+      7d64d106-122e-46bf-aea6-a6d5c471a02f
+      817051fa-f3d4-4195-8d04-2a11c70e42d3
+      83b86e8c-9c93-459d-a398-951d12e5e0e6
+      86147075-649d-49c3-aa6b-15359d7ad96e
+      86e0bd8d-c214-4211-8a64-0eb882930e4e
+      8943333c-60c4-415a-b3e9-833a1fe1a2b1
+      89bcf597-5f25-45a6-862f-9160b2af2a4f
+      8a0ec5b1-1571-4531-985f-bf067a2272c8
+      8b26e52e-c733-4107-a10f-7ac0af0bc5da
+      8cad0a72-3452-4c4c-bb05-090eec9ca3fa
+      8cbab149-03ce-41a1-a452-e7249f900cf5
+      8ee76700-8477-4e3f-9d91-b0d994cd49bd
+      8ef2a509-68ea-430c-915b-156b66fa7d4e
+      8fc555d5-d8ba-47cd-b906-0e3587092fac
+      9134cbc3-ad8c-4d66-8191-2b5447e8f8ba
+      91582526-1fce-47bb-b541-0de4a2326c9b
+      92b3c09e-f397-4e6e-96f0-71b72d91dd4d
+      92d99144-da58-4dca-b429-f4c54d3d9c8e
+      92d9a08d-39fe-44a2-9718-2948a23b3833
+      935cbf3b-5df7-456a-9c45-5a1d9576f7e1
+      96ca6033-c28f-45c1-aafa-286e171112a8
+      9718b451-59eb-4b3b-9518-9eb8d904d8b0
+      97e04a20-1b4c-4329-90a2-d270f8980357
+      99cf9e6f-5486-4754-aab5-ab31f14197c6
+      9a2c7777-c572-4a3c-801f-5a565c9ffb75
+      9bf341de-1478-47a5-978d-174102b6317d
+      9c18c936-37a2-42dd-a2d5-91bc7855e779
+      9c45dc0f-c1ee-431b-a5b0-a0bd2c8717f2
+      9f6383df-580c-410d-ade7-887dd36bcd46
+      9f7a911a-bed1-4e8d-af4b-05f9f22ab04e
+      a01e7393-e0e1-4d31-9b70-0a7b7d136d34
+      a049c58e-5cd5-4498-9715-c35f0ab738d3
+      a2c912fa-5a4a-480e-93b6-c82af088692f
+      a3cabd0d-e7f8-423f-bcf1-0d36c3f6d501
+      a9855f91-3bee-4ee0-9f49-7dbff427a559
+      aa3daf74-ffe2-4801-ae97-4272881e381f
+      aabfc14d-ffb1-4249-8db8-6b136d759d07
+      abe19284-11f9-4682-96d9-608914649225
+      aca291e4-2082-4107-93ef-f2c2cbb5fdf7
+      af23dbb5-69df-404f-a00f-451ba43061d0
+      aff71cae-0075-4624-b090-80d90173d57a
+      b0e29aa6-e0e8-4ae3-8759-5452c6200f7e
+      b1af5538-4391-424e-98d8-54450dcb9a0e
+      b2062fdc-b367-45c9-92fd-3a6fecbe93e9
+      b4f1b482-d3f6-440b-a0ee-acd11764ad4a
+      b7d7723c-a2df-4514-8da1-e528b26d7ede
+      b7f61abc-129d-4418-bbd7-fdda9aa9ed63
+      b9844b41-3a51-4600-9b0c-12326d78ac88
+      ba3bfbbf-ee6e-4559-866a-74c0a06801f2
+      bd2ff117-6892-41cf-a0fe-990b9d2a57ac
+      bd41914c-e593-4191-bedd-09c2c3972705
+      be1f4124-c570-4f4c-9bea-c3df9e2d8cf4
+      bf0ff882-31c2-422a-a3a3-83c83337caee
+      c140bdb0-f997-4c05-a28f-348f0b5b4023
+      c605a4b5-1746-4083-9c72-f87d90b4ba0c
+      c87a0f11-df4a-4618-9d04-60e1932efcff
+      c99d4f24-ba78-4207-8904-ff3d4af45653
+      caf30207-5005-41aa-808a-6485d881abd5
+      ccd69a44-f5d6-4a58-a24e-48d4ec439870
+      ce4a2ff6-db2d-46be-afcf-334ab0df1c15
+      d0f8aeec-ecbd-4ecf-bcab-97e8bbd250b8
+      d3861607-03fa-42ee-85d9-34b070b02267
+      d3ef58de-f9d5-460f-bafd-441becf731f9
+      d4314e58-a329-43c3-b601-ea1e161d8e31
+      d73e78f3-fbc5-46e2-b046-487a387d757a
+      d7a3d4a0-5766-4490-aa96-d3dbbf661eff
+      d9f6c32a-5f5e-4729-a24e-1fe30b301a43
+      da1bd31b-6897-47b7-a603-581d4b27966f
+      dc71b2d1-02f4-42f6-af52-055a59c26152
+      e1426b71-4c93-4dd2-9885-370c7231798b
+      e1f52bb5-d1e8-4a6e-b02a-37ef5c17e091
+      e4f9afd7-3976-4136-8587-9107452d511f
+      e599f6d4-1cc3-4760-aa09-f251f868b4e5
+      e5ffc921-2b93-4110-a0f0-b359c6da054a
+      e7be97be-b68e-4297-8e41-66f37d394980
+      eb4fc492-82b5-4a5a-bc85-44a5211c2c28
+      ef0bbfb6-cda5-4649-b7a7-85c7675dc196
+      f020e843-7c1c-4403-9917-fef926b39344
+      f0809b12-e2c9-43d9-bc8c-bf1e890b103e
+      f0abfe05-ec10-4014-b8a9-0bda5f482a28
+      f0c58390-c9f1-43a7-87fb-63560708e03e
+      f34fe93b-c6c1-457c-9edb-65344c7d29e1
+      f7c38a3c-b134-4db7-a489-24fa3f25b98c
+      f7d28a59-8c0c-4b19-b4fc-db3eb3e90ba0
+      f9ab6f63-af67-461c-b580-e55ea8d67cb5
+      fad8be04-264e-4039-a0b2-efc9c726c953
+      fb1a2bdc-94ea-4e06-b98a-c138f7d9913c
+      fc61071e-9a64-40d7-a37f-3dfca87144d5
+      fe9dc5bb-cb17-470c-9794-c94fee9b2579
+      ff2fd66d-609b-4d87-87da-e6096c660e18
+      ffac0512-39c4-4ee8-8c89-a85c3b65848f
+    )
+  )
+  (group "" (id 56c6375a-b584-4054-be4c-bea707d6e82a)
+    (members
+      3c69380d-80e9-4c36-b79f-abfcac39c560
+      44920951-b185-458e-b6b7-a621429b9ca2
+      55c0c37c-2140-45f1-bf77-39fa6d34bb8f
+      6a04f199-359e-4a5a-9054-19dd9caad9d9
+      c89e680f-30a0-4912-b47b-64d0933ded0a
+      d4d9c291-8a1a-49be-8e4f-8ae69f5b496a
+    )
+  )
+  (group "" (id e3418783-ba61-42e2-85bb-32df1960a428)
+    (members
+      75c1c6e0-301b-4429-a907-1ca6978ffffb
+      997a0d26-4541-4d34-9790-b9341f781aa2
+      ea7ab3e6-50ca-4a77-9f07-1e46a161421d
+      fe08c493-457e-42ea-9e7e-5bec0017532b
+    )
+  )
+)

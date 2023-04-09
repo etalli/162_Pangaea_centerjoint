@@ -1,0 +1,587 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 47ee7704-c630-4787-97c3-d413165a048b)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 62.2554 50.6222 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0f23a9f1-5d55-4c52-ac53-bac22a83ba65)
+    (property "Reference" "H15" (at 64.7955 49.8613 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 64.7955 52.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 62.2554 50.6222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 62.2554 50.6222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H15") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H7") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 116.6622 25.3238 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 10a11a6f-b844-4b8f-9805-9dd15a4b7b5a)
+    (property "Reference" "H10" (at 119.2023 24.5629 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 119.2023 26.8616 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 116.6622 25.3238 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.6622 25.3238 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H10") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H14") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 40.3606 50.8762 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 13948f17-f109-4e35-9f92-1f82ff97ec5d)
+    (property "Reference" "H13" (at 42.9007 50.1153 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 42.9007 52.414 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 40.3606 50.8762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 40.3606 50.8762 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H13") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 138.557 26.3398 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2356c733-2dc8-4544-aa65-40e1d2aca33f)
+    (property "Reference" "H12" (at 141.0971 25.5789 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 141.0971 27.8776 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 138.557 26.3398 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 138.557 26.3398 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H12") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H16") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.8846 26.2382 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 24fbf755-0fc2-4c9f-91b8-f7ba5e1b1ab3)
+    (property "Reference" "H4" (at 44.4247 25.4773 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 44.4247 27.776 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 41.8846 26.2382 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.8846 26.2382 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 62.2554 56.9722 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 59f60128-ff2b-4bf2-814f-c22aa2938c2b)
+    (property "Reference" "H16" (at 64.7955 56.2113 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 64.7955 58.51 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 62.2554 56.9722 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 62.2554 56.9722 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H16") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 116.6622 20.2438 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6afbcd94-2dda-4dbc-9c62-1ed13f4eb247)
+    (property "Reference" "H9" (at 119.2023 19.4829 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 119.2023 21.7816 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 116.6622 20.2438 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.6622 20.2438 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H13") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 65.8622 20.2438 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 861f43a1-fc74-4fa5-bd32-7e97352e10de)
+    (property "Reference" "H5" (at 68.4023 19.4829 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 68.4023 21.7816 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 65.8622 20.2438 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 65.8622 20.2438 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.8846 19.8882 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b08d48cb-df79-4419-967c-192e21d5dfad)
+    (property "Reference" "H3" (at 44.4247 19.1273 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 44.4247 21.426 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 41.8846 19.8882 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.8846 19.8882 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 87.757 19.9898 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b4f02118-109d-45e6-95e0-f49d6d1762a5)
+    (property "Reference" "H7" (at 90.2971 19.2289 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 90.2971 21.5276 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 87.757 19.9898 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 87.757 19.9898 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H7") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H11") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 65.8622 25.3238 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c7734215-a3a1-4acc-8ac8-1bc409181af6)
+    (property "Reference" "H6" (at 68.4023 24.5629 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 68.4023 26.8616 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 65.8622 25.3238 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 65.8622 25.3238 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H10") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 87.757 26.3398 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid df8d23b8-e1ec-4f38-be44-aabddc7b02ad)
+    (property "Reference" "H8" (at 90.2971 25.5789 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 90.2971 27.8776 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 87.757 26.3398 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 87.757 26.3398 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H12") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 19.9898 25.2222 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e9708aa0-7337-4556-b1d7-fb1ce60c1052)
+    (property "Reference" "H2" (at 22.5299 24.4613 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 22.5299 26.76 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 19.9898 25.2222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 19.9898 25.2222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 40.3606 55.9562 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ec6ba600-85c1-40ee-8a96-1e333c81817f)
+    (property "Reference" "H14" (at 42.9007 55.1953 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 42.9007 57.494 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 40.3606 55.9562 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 40.3606 55.9562 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H14") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 138.557 19.9898 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ee3d68ef-4078-4bd6-8822-28b733b61c94)
+    (property "Reference" "H11" (at 141.0971 19.2289 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 141.0971 21.5276 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 138.557 19.9898 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 138.557 19.9898 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H11") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H15") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 19.9898 20.1422 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f1958190-7d32-45fd-9a78-ba64d85d3ca4)
+    (property "Reference" "H1" (at 22.987 19.5072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 22.987 22.0472 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprint:M2_Hole" (at 19.9898 20.1422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 19.9898 20.1422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "centerjoint_1cm_MuteSW"
+        (path "/3c14c8fd-f676-417c-b4ab-6868dbf3cfaf"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "centerjoint-1cm-wSwitch"
+        (path "/47ee7704-c630-4787-97c3-d413165a048b"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "pangaea_thumb-arrowkeys-RIGHT"
+        (path "/6b6b0995-a961-4ffd-ad93-018c67121a03"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
