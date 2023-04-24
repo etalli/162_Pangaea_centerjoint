@@ -11,3 +11,7 @@ A switch can also be fitted in the middle of the part. The switch can be attache
 ## switch PCB
 
 ![](images/2023-04-09_19_02_02.png)
+
+## history
+2023/04/16 rev1.3 completed.
+
