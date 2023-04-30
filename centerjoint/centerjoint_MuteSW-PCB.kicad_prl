@@ -72,31 +72,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "centerjoint_MuteSW-PCB.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 78,
-          "pos_y": 32,
-          "size_x": 2560,
-          "size_y": 1415
-        }
-      },
-      {
-        "name": "centerjoint_MuteSW-PCB.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 10,
-          "pos_y": 154,
-          "size_x": 2540,
-          "size_y": 1157
-        }
-      }
-    ]
+    "files": []
   }
 }
