@@ -74,26 +74,14 @@
     "files": [
       {
         "name": "centerjoint-0cm-wSwitch.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -415,
-          "pos_y": -369,
-          "size_x": 1855,
-          "size_y": 1269
-        }
-      },
-      {
-        "name": "centerjoint-0cm-wSwitch.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": -1120,
-          "pos_y": -540,
-          "size_x": 2560,
-          "size_y": 1440
+          "pos_x": 352,
+          "pos_y": 98,
+          "size_x": 1855,
+          "size_y": 1269
         }
       }
     ]
