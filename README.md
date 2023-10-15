@@ -17,5 +17,5 @@ All the KiCAD design files are avabile, so you can customize the distance or deg
 
 ## history
 
-* 2023/04/16 rev1.3 completed.
-* 2023/05/20 added 0cm version and updated document.
+* 2023/04/16 rev1.3 completed. distance 1cm version.
+* 2023/05/20 added distance 0cm version.
